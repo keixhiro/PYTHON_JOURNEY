@@ -7,3 +7,4 @@ greetings_1 = "Hello world"
 would = "Would you like to play a game"
 print(greetings_1 + period + would + question_mark)
 print("No, definitely not" + period)
+''' What the heck just happened?'''
