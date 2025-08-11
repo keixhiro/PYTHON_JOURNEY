@@ -1,3 +1,9 @@
-print("Hello World")
+print("...")
 ''' It's working HAHAHA. Anyways.'''
-'''
+period = ". "
+comma = ", "
+question_mark = "? "
+greetings_1 = "Hello world"
+would = "Would you like to play a game"
+print(greetings_1 + period + would + question_mark)
+print("No, definitely not" + period)
