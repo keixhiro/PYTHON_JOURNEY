@@ -11,15 +11,12 @@ period = ". "
 space = " "
 greetings_1 = input("Hello world" + period)
 name_1 = input("What is your name" + question_mark)
-would = input(name_1 + comma + "would you like to play a game" + question_mark)
 nice = ("Nice to meet you" + space + name_1 + exclamation_mark)
-but = ("But let's be honest, " + name_1 + ", WHAT'S YOUR REAL NAME" + period)
-
-'''
-What the heck just happened? So yeah, I've decided to turn the past codes that I decided to remove into comments so I'd at least know.
-'''
-'''
-print("No, definitely not" + period)
-'''
+would = input(name_1 + comma + "would you like to play a game" + question_mark)
 print(nice)
+but = input("But let's be honest, " + name_1 + ", WHAT'S YOUR REAL NAME" + question_mark)
 print(but)
+but = input("What is your real name" + question_mark)
+but = input("What is your real name" + question_mark)
+but = input("What is your real name" + question_mark)
+but = input( "WHAT'S YOUR REAL NAME" + question_mark)
