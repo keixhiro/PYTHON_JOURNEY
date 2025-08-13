@@ -1,12 +1,25 @@
 print("...")
-''' It's working HAHAHA. Anyways.'''
+
+'''
+It's working HAHAHA. Anyways.
+'''
+
 comma = ", "
+exclamation_mark = "! "
 question_mark = "? "
 period = ". "
 space = " "
 greetings_1 = input("Hello world" + period)
-would = input("Would you like to play a game" + question_mark)
-print(greetings_1)
-print(would + space)
-'''print("No, definitely not" + period)'''
-'''What the heck just happened? So yeah, I've decided to turn the past codes that I decided to remove into comments so I'd at least know.'''
+name_1 = input("What is your name" + question_mark)
+would = input(name_1 + comma + "would you like to play a game" + question_mark)
+nice = ("Nice to meet you" + space + name_1 + exclamation_mark)
+but = ("But let's be honest, " + name_1 + ", WHAT'S YOUR REAL NAME" + period)
+
+'''
+What the heck just happened? So yeah, I've decided to turn the past codes that I decided to remove into comments so I'd at least know.
+'''
+'''
+print("No, definitely not" + period)
+'''
+print(nice)
+print(but)
