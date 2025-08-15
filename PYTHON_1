@@ -23,9 +23,9 @@ but = input( "WHAT'S YOUR REAL NAME" + question_mark)
 print("WHAT'S YOU-")
 print("...")
 age = input("How old are you" + question_mark)
-''''
-May issue pa ata dito, I still need to figure out how the hell to do algebra while using input variables
 '''
-combined_age = ((age) * 2)
+I have yet to figure out what I should do.
+age_dependent = (2)
+combined_age = (age) * (age_dependent)
+'''
 print("I'm" + space + age + space + "as well" + exclamation_mark)
-print(combined_age)
