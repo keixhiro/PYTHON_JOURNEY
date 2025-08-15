@@ -3,7 +3,6 @@ print("...")
 '''
 It's working HAHAHA. Anyways.
 '''
-
 comma = ", "
 exclamation_mark = "! "
 question_mark = "? "
@@ -23,9 +22,8 @@ but = input( "WHAT'S YOUR REAL NAME" + question_mark)
 print("WHAT'S YOU-")
 print("...")
 age = input("How old are you" + question_mark)
-'''
-I have yet to figure out what I should do.
-age_dependent = (2)
-combined_age = (age) * (age_dependent)
-'''
 print("I'm" + space + age + space + "as well" + exclamation_mark)
+
+'''
+Damn, I've run out of plot HAHAHA.
+'''
