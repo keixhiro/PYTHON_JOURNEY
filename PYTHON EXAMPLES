@@ -3,7 +3,7 @@ print("...")
 '''
 It's working HAHAHA. Anyways.
 '''
-'''
+
 comma = ", "
 exclamation_mark = "! "
 question_mark = "? "
@@ -11,9 +11,10 @@ period = ". "
 space = " "
 greetings_1 = input("Hello world" + period)
 name_1 = input("What is your name" + question_mark)
-nice = ("Nice to meet you" + space + name_1 + exclamation_mark)
-would = input(name_1 + comma + "would you like to play a game" + question_mark)
+nice = (f"Nice to meet you{space}{name_1}{exclamation_mark}")
 print(nice)
+would = input(name_1 + comma + "would you like to play a game" + question_mark)
+print("Great!")
 but = input("But let's be honest, " + name_1 + ", WHAT'S YOUR REAL NAME" + question_mark)
 print(but + comma)
 but = input("What's your real name" + question_mark)
@@ -22,9 +23,9 @@ but = input("What's your real name" + question_mark)
 but = input( "WHAT'S YOUR REAL NAME" + question_mark)
 print("WHAT'S YOU-")
 print("...")
+print("...")
+print("...")
 age = input("How old are you" + question_mark)
 print("I'm" + space + age + space + "as well" + exclamation_mark)
-'''
-'''
-Damn, I've run out of plot HAHAHA.
-'''
+print("...")
+print(int(age) * 2)
