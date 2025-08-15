@@ -3,7 +3,7 @@ print("...")
 '''
 It's working HAHAHA. Anyways.
 '''
-
+'''
 comma = ", "
 exclamation_mark = "! "
 question_mark = "? "
@@ -24,7 +24,7 @@ print("WHAT'S YOU-")
 print("...")
 age = input("How old are you" + question_mark)
 print("I'm" + space + age + space + "as well" + exclamation_mark)
-
+'''
 '''
 Damn, I've run out of plot HAHAHA.
 '''
