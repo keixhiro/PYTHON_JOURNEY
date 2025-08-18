@@ -43,4 +43,8 @@ Emz, mali pala mga pinaggagawa ko haha.
 print("Now we could make is to that it shows as integer or as a decimal number.")
 number_4 = 7
 number_5 = 3
-print("")
+number_4_divided_by_5_integer_style = (int(number_4) / int(number_5))
+number_4_divided_by_5_decimal_style = (int(number_4) // int(number_5))
+print("number")
+print(f"This is division where the result only shows by integers: {number_4_divided_by_5_integer_style}")
+print(f"While this style of division shows even the numbers beyond the decimals: {number_4_divided_by_5_integer_style}")
