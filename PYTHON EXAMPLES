@@ -26,7 +26,7 @@ number_1 = 10
 number_2 = 20
 number_3 = 30
 Mean_of_numbers_1_and_2 = int(number_1 + number_2) / 2
-print(f"Mean of {number_1} and {number_2} is {Mean_of_numbers_1_to_2}")
+print(f"Mean of {number_1} and {number_2} is {Mean_of_numbers_1_and_2}")
 number_1 = input(f"Put new number{period}")
 number_2 = input(f"Put new number{period}")
 number_3 = input(f"Put new number{period}")
@@ -37,3 +37,6 @@ Bleh, nilalagyan ko nalang kahit ano para lang sa quota. Honestly, I should be p
 '''
 number_1_times_2 = (int(number_1) * int(number_2))
 print(f"{number_1} times {number_2} is {number_1_times_2}")
+'''
+Emz, mali pala mga pinaggagawa ko haha.
+'''
