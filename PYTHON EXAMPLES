@@ -18,3 +18,8 @@ print("- ", skill3, " (", level3, " )")
 print("I am looking for a job with a salary of", lower, "-", upper, "euros per month")
 The program should print out exactly the following:
 '''
+'''/'''
+number_1 = 10
+number_2 = 20
+number_3 = 30
+Mean = (number_1 + number_2) / 2
