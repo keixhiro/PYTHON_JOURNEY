@@ -25,13 +25,15 @@ The program should print out exactly the following:
 number_1 = 10
 number_2 = 20
 number_3 = 30
-Mean_of_number_1_and_2 = (number_1 + number_2) / 2
-number_1 = input("Put new number{period}")
-number_2 = input("Put new number{period}")
-number_3 = input("Put new number{period}")
-Mean_of_numbers_1_to_3 = (number_1 + number_2 + number_3) / 3
+Mean_of_numbers_1_and_2 = int(number_1 + number_2) / 2
+print(f"Mean of {number_1} and {number_2} is {Mean_of_numbers_1_to_2}")
+number_1 = input(f"Put new number{period}")
+number_2 = input(f"Put new number{period}")
+number_3 = input(f"Put new number{period}")
+Mean_of_numbers_1_to_3 = int(number_1 + number_2 + number_3) / 3
+print(f"Mean of {number_1},{number_2}, and {number_3} is {Mean_of_numbers_1_to_3}")
 '''
 Bleh, nilalagyan ko nalang kahit ano para lang sa quota. Honestly, I should be peacefully snoring in my bed but, instead, I'm taking my fucking time to do my best and work hard haha.
 '''
-number_1_times_2 = (number_1 * number_2)
+number_1_times_2 = (int(number_1) * int(number_2))
 print(f"{number_1} times {number_2} is {number_1_times_2}")
