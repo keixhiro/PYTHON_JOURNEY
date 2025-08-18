@@ -19,11 +19,14 @@ print("- ", skill3, " (", level3, " )")
 print("I am looking for a job with a salary of", lower, "-", upper, "euros per month")
 The program should print out exactly the following:
 '''
-'''/'''
+'''
+/
+'''
 number_1 = 10
 number_2 = 20
 number_3 = 30
-Mean = (number_1 + number_2) / 2
+Mean_of_number_1_and_2 = (number_1 + number_2) / 2
 number_1 = input("Put new number{period}")
 number_2 = input("Put new number{period}")
 number_3 = input("Put new number{period}")
+Mean_of_numbers_1_to_3 = (number_1 + number_2 + number_3) / 3
