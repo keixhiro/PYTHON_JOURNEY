@@ -40,3 +40,7 @@ print(f"{number_1} times {number_2} is {number_1_times_2}{period}")
 '''
 Emz, mali pala mga pinaggagawa ko haha.
 '''
+print("Now we could make is to that it shows as integer or as a decimal number.")
+number_4 = 7
+number_5 = 3
+print("")
