@@ -26,7 +26,7 @@ number_1 = 10
 number_2 = 20
 number_3 = 30
 Mean_of_numbers_1_and_2 = int(number_1 + number_2) / 2
-print(f"The mean of {number_1} and {number_2} is {Mean_of_numbers_1_and_2{period}")
+print(f"The mean of {number_1} and {number_2} is {Mean_of_numbers_1_and_2}{period}")
 number_1 = input(f"Put new number{period} ")
 number_2 = input(f"Put new number{period} ")
 number_3 = input(f"Put new number{period} ")
