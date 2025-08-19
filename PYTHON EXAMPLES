@@ -22,17 +22,17 @@ print("- ", skill3, " (", level3, " )")
 print("I am looking for a job with a salary of", lower, "-", upper, "euros per month")
 The program should print out exactly the following:
 '''
-number_1 = 10
-number_2 = 20
-number_3 = 30
+number_1 = 2
+number_2 = 4
+number_3 = 6
 number_1 = int(number_1)
 number_2 = int(number_2)
 number_3 = int(number_3)
 Mean_of_numbers_1_and_2 = (number_1 + number_2) / 2
 print(f"The mean of {number_1} and {number_2} is {Mean_of_numbers_1_and_2}{period}")
-number_1 = input(f"Put new number{period} ")
-number_2 = input(f"Put new number{period} ")
-number_3 = input(f"Put new number{period} ")
+number_1 = float(input(f"Put new number{period} "))
+number_2 = float(input(f"Put new number{period} "))
+number_3 = float(input(f"Put new number{period} "))
 number_1 = int(number_1)
 number_2 = int(number_2)
 number_3 = int(number_3)
