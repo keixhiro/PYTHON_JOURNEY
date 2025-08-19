@@ -49,8 +49,8 @@ Emz, mali pala mga pinaggagawa ko haha.
 print("Now we could make is to that it shows as integer or as a decimal number.")
 number_4 = 7
 number_5 = 3
-number_4 = int(number_4)
-number_5 = int(number_5)
+number_4 = (number_4)
+number_5 = (number_5)
 number_4_divided_by_5_integer_style = number_4 // number_5
 number_4_divided_by_5_decimal_style = number_4 / number_5
 print(f"This is division where the result only shows by integers: {number_4_divided_by_5_integer_style}")
@@ -63,3 +63,10 @@ Damn, so pano gagawin ko mamaya?
 Tamang kanta-kanta nalang hahaha.
 One more for the grand finale.
 '''
+height = float(input("What is your height? "))
+weight = float(input("What is your weight? "))
+
+height = height / 100
+bmi = weight / height ** 2
+
+print(f"The BMI is {bmi}")

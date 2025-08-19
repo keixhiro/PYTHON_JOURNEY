@@ -3,12 +3,12 @@ print("...")
 '''
 It's working HAHAHA. Anyways.
 '''
-'''
 comma = ", "
 exclamation_mark = "! "
 question_mark = "? "
 period = ". "
 space = " "
+'''
 greetings_1 = input("Hello world" + period)
 name_1 = input("What is your name" + question_mark)
 nice = (f"Nice to meet you{space}{name_1}{exclamation_mark}")
@@ -24,9 +24,9 @@ print("WHAT'S YOU-")
 print("...")
 print("...")
 print("...")
+'''
 age = float(input("How old are you" + question_mark))
-age = int(age) * 2
-age = int(age)
+age = float(age * 2)
 print(f"Nice, I'm {age} as well{exclamation_mark}")
 print("...")
 first_name = ("Fn")
@@ -38,4 +38,3 @@ print("...")
 print("...")
 name_1_alter_ego = input("Please enter your alter ego's name.")
 print(f"Welcome to hell, Mr.{name_1_alter_ego}")
-'''
