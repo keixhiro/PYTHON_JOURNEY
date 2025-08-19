@@ -33,6 +33,9 @@ print(f"The mean of {number_1} and {number_2} is {Mean_of_numbers_1_and_2}{perio
 number_1 = input(f"Put new number{period} ")
 number_2 = input(f"Put new number{period} ")
 number_3 = input(f"Put new number{period} ")
+number_1 = int(number_1)
+number_2 = int(number_2)
+number_3 = int(number_3)
 Mean_of_numbers_1_to_3 = (number_1 + number_2 + number_3) / 3
 print(f"The mean of {number_1},{number_2}, and {number_3} is {Mean_of_numbers_1_to_3}{period}")
 '''
