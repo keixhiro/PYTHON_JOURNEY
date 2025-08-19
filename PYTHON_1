@@ -3,7 +3,7 @@ print("...")
 '''
 It's working HAHAHA. Anyways.
 '''
-
+'''
 comma = ", "
 exclamation_mark = "! "
 question_mark = "? "
@@ -37,3 +37,4 @@ print("...")
 print("...")
 name_1_alter_ego = input("Please enter your alter ego's name.")
 print(f"Welcome to hell, Mr.{name_1_alter_ego}")
+'''
