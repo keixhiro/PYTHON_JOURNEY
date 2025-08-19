@@ -1,9 +1,10 @@
-print("...")
 comma = ", "
 exclamation_mark = "! "
 question_mark = "? "
 period = ". "
 space = " "
+
+print("...")
 greetings_1 = input("Hello world" + period)
 name_1 = input("What is your name" + question_mark)
 nice = (f"Nice to meet you{space}{name_1}{exclamation_mark}")
