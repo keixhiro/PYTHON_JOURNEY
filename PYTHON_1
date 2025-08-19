@@ -25,7 +25,7 @@ print("...")
 print("...")
 print("...")
 age = input("How old are you" + question_mark)
-age = int(age) * 2
+age = int(age)* 2
 print(f"Nice, I'm {age} as well{exclamation_mark}")
 print("...")
 first_name = ("Fn")
