@@ -12,6 +12,7 @@ skill3 = "programming"
 level3 = "semiprofessional"
 lower = 2000
 upper = 3000
+'''
 print("my name is ", name, " , I am ", age, "years old")
 print("my skills are")
 print("- ", skill1, " (", level1, ")")
@@ -19,6 +20,7 @@ print("- ", skill2, " (", level2, ")")
 print("- ", skill3, " (", level3, " )")
 print("I am looking for a job with a salary of", lower, "-", upper, "euros per month")
 The program should print out exactly the following:
+'''
 number_1 = 2
 number_2 = 4
 number_3 = 6
