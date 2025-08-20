@@ -32,9 +32,6 @@ print(f"The mean of {number_1} and {number_2} is {Mean_of_numbers_1_and_2}{perio
 number_1 = float(input(f"Put new number{period} "))
 number_2 = float(input(f"Put new number{period} "))
 number_3 = float(input(f"Put new number{period} "))
-number_1 = int(number_1)
-number_2 = int(number_2)
-number_3 = int(number_3)
 Mean_of_numbers_1_to_3 = (number_1 + number_2 + number_3) / 3
 print(f"The mean of {number_1},{number_2}, and {number_3} is {Mean_of_numbers_1_to_3}{period}")
 number_1_times_2 = ((number_1) * (number_2))
@@ -42,8 +39,6 @@ print(f"{number_1} times {number_2} is {number_1_times_2}{period}")
 print("Now we could make is to that it shows as integer or as a decimal number.")
 number_4 = 7
 number_5 = 3
-number_4 = (number_4)
-number_5 = (number_5)
 number_4_divided_by_5_integer_style = number_4 // number_5
 number_4_divided_by_5_decimal_style = number_4 / number_5
 print(f"This is division where the result only shows by integers: {number_4_divided_by_5_integer_style}")
@@ -53,3 +48,19 @@ weight = float(input("What is your weight? "))
 height = height / 100
 bmi = weight / height ** 2
 print(f"The BMI is {bmi}")
+number_6 = float(input("Type in a number. "))
+sum_of_number_6 = sum + number_6
+number_6 = float(input("Type in another number, a new one. "))
+sum_of_number_6 = sum + number_6
+print("Tada! You've successfully added the first input with the second.")
+
+You could also do it like this
+number_6 = float(input("Type in a number. "))
+sum_of_number_6 += number_6
+number_6 += float(input("Type in a new number. "))
+sum_of_number_6 += number_6
+
+OR
+
+sum_of_number_6 += float(input("Type in a number. "))
+sum_of_number_6 += float(input("Type in a new number. "))
