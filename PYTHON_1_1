@@ -33,3 +33,59 @@ print("...")
 print("...")
 name_1_alter_ego = input("Please enter your alter ego's name.")
 print(f"Welcome to hell, Mr.{name_1_alter_ego}{period}")
+
+period = (".")
+'''
+/
+'''
+name = "Tim Tester"
+age = 20
+skill1 = "python"
+level1 = "beginner"
+skill2 = "java"
+level2 = "veteran"
+skill3 = "programming"
+level3 = "semiprofessional"
+lower = 2000
+upper = 3000
+'''
+print("my name is ", name, " , I am ", age, "years old")
+print("my skills are")
+print("- ", skill1, " (", level1, ")")
+print("- ", skill2, " (", level2, ")")
+print("- ", skill3, " (", level3, " )")
+print("I am looking for a job with a salary of", lower, "-", upper, "euros per month")
+The program should print out exactly the following:
+'''
+number_1 = 2
+number_2 = 4
+number_3 = 6
+number_1 = int(number_1)
+number_2 = int(number_2)
+number_3 = int(number_3)
+Mean_of_numbers_1_and_2 = (number_1 + number_2) / 2
+print(f"The mean of {number_1} and {number_2} is {Mean_of_numbers_1_and_2}{period}")
+number_1 = float(input(f"Put new number{period} "))
+number_2 = float(input(f"Put new number{period} "))
+number_3 = float(input(f"Put new number{period} "))
+number_1 = int(number_1)
+number_2 = int(number_2)
+number_3 = int(number_3)
+Mean_of_numbers_1_to_3 = (number_1 + number_2 + number_3) / 3
+print(f"The mean of {number_1},{number_2}, and {number_3} is {Mean_of_numbers_1_to_3}{period}")
+number_1_times_2 = ((number_1) * (number_2))
+print(f"{number_1} times {number_2} is {number_1_times_2}{period}")
+print("Now we could make is to that it shows as integer or as a decimal number.")
+number_4 = 7
+number_5 = 3
+number_4 = (number_4)
+number_5 = (number_5)
+number_4_divided_by_5_integer_style = number_4 // number_5
+number_4_divided_by_5_decimal_style = number_4 / number_5
+print(f"This is division where the result only shows by integers: {number_4_divided_by_5_integer_style}")
+print(f"While with this style of division shows even the numbers beyond the decimals: {number_4_divided_by_5_decimal_style}")
+height = float(input("What is your height? "))
+weight = float(input("What is your weight? "))
+height = height / 100
+bmi = weight / height ** 2
+print(f"The BMI is {bmi}")
