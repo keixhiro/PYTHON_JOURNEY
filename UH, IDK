@@ -1,4 +1,3 @@
-'''
 comma = ", "
 exclamation_mark = "! "
 question_mark = "? "
@@ -22,16 +21,15 @@ print("...")
 print("...")
 print("...")
 age = int(input("How old are you" + question_mark))
-age = age * 2
+age = (age * 2) / 2
 print(f"Nice, I'm {age} as well{exclamation_mark}")
 print("...")
 first_name = ("Fn")
 second_name = ("Sn")
 full_name_villian_one = first_name + space + second_name
-print("Now young one, you may refer to me as Fn/Sn" + period)
+print(f"Now young one, you may refer to me as J{first_name} {second_name}{period}")
 print("...")
 print("...")
 print("...")
 name_1_alter_ego = input("Please enter your alter ego's name.")
-print(f"Welcome to hell, Mr.{name_1_alter_ego}")
-'''
+print(f"Welcome to hell, Mr.{name_1_alter_ego}{exclamation_mark}")
