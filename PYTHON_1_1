@@ -21,10 +21,11 @@ print("...")
 print("...")
 print("...")
 age = input("How old are you" + question_mark)
-if age < 18:
+if int(age) < 18:
     print("You are not supposed to be here, FAREWELL{period}")
 else:
     age = (int(age) * 2) / 2
+    age = int(age)
     print(f"Nice, I'm {age} as well{exclamation_mark}")
     print("...")
     first_name = ("Fn")
