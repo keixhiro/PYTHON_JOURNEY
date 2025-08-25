@@ -20,11 +20,11 @@ print("WHAT'S YOU-")
 print("...")
 print("...")
 print("...")
-age = int(input("How old are you" + question_mark))
+age = input("How old are you" + question_mark)
 if age < 18:
     print("You are not supposed to be here, FAREWELL{period}")
 else:
-    age = (age * 2) / 2
+    age = (int(age) * 2) / 2
     print(f"Nice, I'm {age} as well{exclamation_mark}")
     print("...")
     first_name = ("Fn")
@@ -35,4 +35,4 @@ else:
     print("...")
     print("...")
     name_1_alter_ego = input("Please enter your alter ego's name.")
-print(f"Welcome to hell, Mr.{name_1_alter_ego}{exclamation_mark}")
+print(f"Well then, welcome to hell, Mr.{name_1_alter_ego}{exclamation_mark}")
