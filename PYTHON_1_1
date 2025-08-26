@@ -1,9 +1,12 @@
+'''
 comma = ", "
 exclamation_mark = "! "
 question_mark = "? "
 period = ". "
 space = " "
-
+'''
+'''
+AMITYTALE PART 1
 print("...")
 greetings_1 = input("Hello world" + period)
 name_1 = input("What is your name" + question_mark)
@@ -11,9 +14,9 @@ nice = (f"Nice to meet you{space}{name_1}{exclamation_mark}")
 print(nice)
 would = input(f"{name_1}{comma}would you like to play a game{question_mark}")
 if would == "No":
-    '''
+    ''''''
     Gusto ko lagyan ng kulay at font effects to
-    '''
+    ''''''
     print(f"YOU HAVE DIED{period}")
     print(f"Try again{question_mark}")
 else:
@@ -30,9 +33,9 @@ else:
     age = input("How old are you" + question_mark)
     if int(age) < 18:
         print(f"You are not supposed to be here, FAREWELL{period}")
-        '''
+        ''''''
         Eto rin
-        '''
+        ''''''
         print(f"You have died{period}")
     else:
         age = (int(age) * 2) / 2
@@ -48,4 +51,16 @@ else:
         print("...")
         name_1_alter_ego = input("Please enter your alter ego's name.")
         print(f"Well then, welcome to hell, Mr.{name_1_alter_ego}{exclamation_mark}")
-        
+'''
+'''
+IDEAS FOR APPS / SOFTWARE
+'''
+'''
+?
+'''
+print("WELCOME TO THE ARCHIVE OF THE ARTIINTEL CLOUD SILO!")
+name = input("WHAT IS YOUR NAME? ")
+name_lists = {"Francis", "francis"}
+
+if name in name_lists:
+    print("Welcome! What would you like to access?")
