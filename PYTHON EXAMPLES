@@ -1,7 +1,11 @@
 period = (".")
+
 '''
 /
 '''
+
+'''
+THE FRICK IS THIZ SUPPOSED TO BE
 name = "Tim Tester"
 age = 20
 skill1 = "python"
@@ -12,7 +16,6 @@ skill3 = "programming"
 level3 = "semiprofessional"
 lower = 2000
 upper = 3000
-'''
 print("my name is ", name, " , I am ", age, "years old")
 print("my skills are")
 print("- ", skill1, " (", level1, ")")
@@ -20,6 +23,8 @@ print("- ", skill2, " (", level2, ")")
 print("- ", skill3, " (", level3, " )")
 print("I am looking for a job with a salary of", lower, "-", upper, "euros per month")
 The program should print out exactly the following:
+'''
+
 '''
 number_1 = 2
 number_2 = 4
@@ -37,30 +42,41 @@ print(f"The mean of {number_1},{number_2}, and {number_3} is {Mean_of_numbers_1_
 number_1_times_2 = ((number_1) * (number_2))
 print(f"{number_1} times {number_2} is {number_1_times_2}{period}")
 print("Now we could make is to that it shows as integer or as a decimal number.")
-number_4 = 7
-number_5 = 3
-number_4_divided_by_5_integer_style = number_4 // number_5
-number_4_divided_by_5_decimal_style = number_4 / number_5
-print(f"This is division where the result only shows by integers: {number_4_divided_by_5_integer_style}")
-print(f"While with this style of division shows even the numbers beyond the decimals: {number_4_divided_by_5_decimal_style}")
+number_1_divided_by_2_integer_style = number_1 // number_2
+number_1_divided_by_2_decimal_style = number_1 / number_2
+print(f"This is division where the result only shows by integers: {number_1_divided_by_2_integer_style}")
+print(f"While with this style of division shows even the numbers beyond the decimals: {number_1_divided_by_2_decimal_style}")
 height = float(input("What is your height? "))
 weight = float(input("What is your weight? "))
 height = height / 100
 bmi = weight / height ** 2
 print(f"The BMI is {bmi}")
+'''
+
+sum_of_number_6 = 0
 number_6 = float(input("Type in a number. "))
-sum_of_number_6 = sum + number_6
-number_6 = float(input("Type in another number, a new one. "))
-sum_of_number_6 = sum + number_6
+sum_of_number_6 = sum_of_number_6 + number_6
+sum_of_number_6 = float(input("Type in another number, a new one. "))
+sum_of_number_6 = sum_of_number_6 + number_6
+print(f"The sum of the first number with the second is {sum_of_number_6}{period}")
 print("Tada! You've successfully added the first input with the second.")
 
+'''
 You could also do it like this
+'''
+
+sum_of_number_6 = 0
 number_6 = float(input("Type in a number. "))
 sum_of_number_6 += number_6
 number_6 += float(input("Type in a new number. "))
 sum_of_number_6 += number_6
+print(f"The sum of the first number with the second is {sum_of_number_6}{period}")
 
+'''
 OR
+'''
 
+sum_of_number_6 = 0
 sum_of_number_6 += float(input("Type in a number. "))
 sum_of_number_6 += float(input("Type in a new number. "))
+print(f"The sum of the first number with the second is {sum_of_number_6}{period}")

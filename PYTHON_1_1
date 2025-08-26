@@ -10,30 +10,42 @@ name_1 = input("What is your name" + question_mark)
 nice = (f"Nice to meet you{space}{name_1}{exclamation_mark}")
 print(nice)
 would = input(f"{name_1}{comma}would you like to play a game{question_mark}")
-print("Great!")
-name_1 = input(f"But let's be honest, {name_1}, WHAT'S YOUR REAL NAME{question_mark}")
-name_1 = input("What's your real name" + question_mark)
-name_1 = input("What's your real name" + question_mark)
-name_1 = input("What's your real name" + question_mark)
-name_1 = input( "WHAT'S YOUR REAL NAME" + question_mark)
-print("WHAT'S YOU-")
-print("...")
-print("...")
-print("...")
-age = input("How old are you" + question_mark)
-if int(age) < 18:
-    print("You are not supposed to be here, FAREWELL{period}")
+if would == "No":
+    '''
+    Gusto ko lagyan ng kulay at font effects to
+    '''
+    print(f"YOU HAVE DIED{period}")
+    print(f"Try again{question_mark}")
 else:
-    age = (int(age) * 2) / 2
-    age = int(age)
-    print(f"Nice, I'm {age} as well{exclamation_mark}")
-    print("...")
-    first_name = ("Fn")
-    second_name = ("Sn")
-    full_name_villian_one = first_name + space + second_name
-    print(f"Now young one, you may refer to me as J{first_name} {second_name}{period}")
-    print("...")
+    print("Great!")
+    name_1 = input(f"But let's be honest, {name_1}, WHAT'S YOUR REAL NAME{question_mark}")
+    name_1 = input("What's your real name" + question_mark)
+    name_1 = input("What's your real name" + question_mark)
+    name_1 = input("What's your real name" + question_mark)
+    name_1 = input( "WHAT'S YOUR REAL NAME" + question_mark)
+    print("WHAT'S YOU-")
     print("...")
     print("...")
-    name_1_alter_ego = input("Please enter your alter ego's name.")
-print(f"Well then, welcome to hell, Mr.{name_1_alter_ego}{exclamation_mark}")
+    print("...")
+    age = input("How old are you" + question_mark)
+    if int(age) < 18:
+        print(f"You are not supposed to be here, FAREWELL{period}")
+        '''
+        Eto rin
+        '''
+        print(f"You have died{period}")
+    else:
+        age = (int(age) * 2) / 2
+        age = int(age)
+        print(f"Nice, I'm {age} as well{exclamation_mark}")
+        print("...")
+        first_name = ("Fn")
+        second_name = ("Sn")
+        full_name_villian_one = first_name + space + second_name
+        print(f"Now young one, you may refer to me as J{first_name} {second_name}{period}")
+        print("...")
+        print("...")
+        print("...")
+        name_1_alter_ego = input("Please enter your alter ego's name.")
+        print(f"Well then, welcome to hell, Mr.{name_1_alter_ego}{exclamation_mark}")
+        
