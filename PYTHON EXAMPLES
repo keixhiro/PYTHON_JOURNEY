@@ -3,7 +3,9 @@ period = (".")
 '''
 /
 '''
-
+'''
+ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+'''
 '''
 THE FRICK IS THIZ SUPPOSED TO BE
 name = "Tim Tester"
@@ -24,7 +26,9 @@ print("- ", skill3, " (", level3, " )")
 print("I am looking for a job with a salary of", lower, "-", upper, "euros per month")
 The program should print out exactly the following:
 '''
-
+'''
+ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+'''
 '''
 number_1 = 2
 number_2 = 4
@@ -52,7 +56,10 @@ height = height / 100
 bmi = weight / height ** 2
 print(f"The BMI is {bmi}")
 '''
-
+'''
+ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+'''
+'''
 sum_of_number_6 = 0
 number_6 = float(input("Type in a number. "))
 sum_of_number_6 = sum_of_number_6 + number_6
@@ -61,9 +68,7 @@ sum_of_number_6 = sum_of_number_6 + number_6
 print(f"The sum of the first number with the second is {sum_of_number_6}{period}")
 print("Tada! You've successfully added the first input with the second.")
 
-'''
 You could also do it like this
-'''
 
 sum_of_number_6 = 0
 number_6 = float(input("Type in a number. "))
@@ -72,11 +77,13 @@ number_6 += float(input("Type in a new number. "))
 sum_of_number_6 += number_6
 print(f"The sum of the first number with the second is {sum_of_number_6}{period}")
 
-'''
 OR
-'''
 
 sum_of_number_6 = 0
 sum_of_number_6 += float(input("Type in a number. "))
 sum_of_number_6 += float(input("Type in a new number. "))
 print(f"The sum of the first number with the second is {sum_of_number_6}{period}")
+'''
+'''
+ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+'''
