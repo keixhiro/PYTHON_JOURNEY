@@ -60,7 +60,17 @@ IDEAS FOR APPS / SOFTWARE
 '''
 print("WELCOME TO THE ARCHIVE OF THE ARTIINTEL CLOUD SILO!")
 name = input("WHAT IS YOUR NAME? ")
-name_lists = {"Francis", "francis"}
-
+name_lists = {"FRANCIS",
+              "Francis", 
+              "francis",
+              "KENNETH",
+              "Kenneth",
+              "kenneth",
+              "FRANCESCA",
+              "Francesca",
+              "francesca",
+              }
 if name in name_lists:
     print("Welcome! What would you like to access?")
+    print("Please choose the category of information that you would like to choose:")
+    

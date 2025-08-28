@@ -2,6 +2,7 @@ period = (".")
 
 '''
 /
+?
 '''
 '''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
@@ -87,3 +88,25 @@ print(f"The sum of the first number with the second is {sum_of_number_6}{period}
 '''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
+total_points = 0
+gameover ="GAMEOVER."
+question_1 = int(input("What is the sqwuare root of 64 minus a random number that is often used to count the number of limbs in some mammals? "))
+answer_1 = question_1 < 10
+if answer_1:
+    print("Correct! You have earned one point.")
+    points = 1
+    total_points += points
+else:
+    print("Aww, unfortunately, your answer it incorrect, you have the lost the current the round, better luck next time!")
+    print(gameover)
+
+question_2 = input("Now, for the second round, the question is: What stands still but can't sit still 45 degrees on its own? ")
+answer_2 = {"HUMANS",
+            "Humans",
+            "humans",
+            "HUMAN",
+            "Human",
+            "human",}
+if question_2 in answer_2:
+    print("Bravo! You have earned another point!")
+    total_points += points
