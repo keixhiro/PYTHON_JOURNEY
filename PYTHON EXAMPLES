@@ -158,4 +158,13 @@ else:
 '''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
-number_1 = int(input("Please type in your nubmer."))
+'''
+number_1 = int(input("Please type in your number. "))
+if number_1 > 0 and number_1 <= 100:
+    if number_1 >= 50:
+        print("You have passed!")
+    elif number_1 < 50:
+        print("You have failed.")
+else:
+    print("That's impossible!")
+'''

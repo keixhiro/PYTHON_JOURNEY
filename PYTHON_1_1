@@ -6,7 +6,8 @@ period = ". "
 space = " "
 '''
 '''
-AMITYTALE PART 1
+                                        STATUS: INITIALLY STARTED
+                                        AMITYTALE PART 1
 print("...")
 greetings_1 = input("Hello world" + period)
 name_1 = input("What is your name" + question_mark)
@@ -53,10 +54,9 @@ else:
         print(f"Well then, welcome to hell, Mr.{name_1_alter_ego}{exclamation_mark}")
 '''
 '''
-IDEAS FOR APPS / SOFTWARE
+                                        STATUS: UNFINISHED / IN PROGRESS
+                                        INFORMATIONS ARCHIVE VIA SEARCHING
 '''
-'''
-?
 '''
 print("WELCOME TO THE ARCHIVE OF THE ARTIINTEL CLOUD SILO!")
 name = input("WHAT IS YOUR NAME? ")
@@ -73,4 +73,10 @@ name_lists = {"FRANCIS",
 if name in name_lists:
     print("Welcome! What would you like to access?")
     print("Please choose the category of information that you would like to choose:")
-    
+else:
+    print("Error! Please try again.")
+'''
+'''
+                                        STATUS: NOT STARTED
+                                        GRADE CALCULATOR
+'''
