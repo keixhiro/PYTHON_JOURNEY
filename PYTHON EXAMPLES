@@ -9,6 +9,7 @@ ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
 '''
 THE FRICK IS THIZ SUPPOSED TO BE
+
 name = "Tim Tester"
 age = 20
 skill1 = "python"
@@ -61,29 +62,29 @@ print(f"The BMI is {bmi}")
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
 '''
-sum_of_number_6 = 0
-number_6 = float(input("Type in a number. "))
-sum_of_number_6 = sum_of_number_6 + number_6
-sum_of_number_6 = float(input("Type in another number, a new one. "))
-sum_of_number_6 = sum_of_number_6 + number_6
-print(f"The sum of the first number with the second is {sum_of_number_6}{period}")
+sum_of_number_1 = 0
+number_1 = float(input("Type in a number. "))
+sum_of_number_1 = sum_of_number_1 + number_1
+sum_of_number_1 = float(input("Type in another number, a new one. "))
+sum_of_number_1 = sum_of_number_1 + number_1
+print(f"The sum of the first number with the second is {sum_of_number_1}{period}")
 print("Tada! You've successfully added the first input with the second.")
 
-You could also do it like this
+YOU COULD DO IT LIKE THIS
 
-sum_of_number_6 = 0
-number_6 = float(input("Type in a number. "))
-sum_of_number_6 += number_6
-number_6 += float(input("Type in a new number. "))
-sum_of_number_6 += number_6
-print(f"The sum of the first number with the second is {sum_of_number_6}{period}")
+sum_of_number_1 = 0
+number_1 = float(input("Type in a number. "))
+sum_of_number_1 += number_1
+number_1 += float(input("Type in a new number. "))
+sum_of_number_1 += number_1
+print(f"The sum of the first number with the second is {sum_of_number_1}{period}")
 
 OR
 
-sum_of_number_6 = 0
-sum_of_number_6 += float(input("Type in a number. "))
-sum_of_number_6 += float(input("Type in a new number. "))
-print(f"The sum of the first number with the second is {sum_of_number_6}{period}")
+sum_of_number_1 = 0
+sum_of_number_1 += float(input("Type in a number. "))
+sum_of_number_1 += float(input("Type in a new number. "))
+print(f"The sum of the first number with the second is {sum_of_number_1}{period}")
 '''
 '''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
@@ -91,7 +92,7 @@ ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
 total_points = 0
 gameover ="GAMEOVER."
-question_1 = int(input("What is the sqwuare root of 64 minus a random number that is often used to count the number of limbs in some mammals? "))
+question_1 = int(input("What is a random number that is often used to count the number of limbs in some mammals? "))
 answer_1 = question_1 < 10
 if answer_1:
     print("Correct! You have earned one point.")
@@ -116,17 +117,45 @@ if question_2 in answer_2:
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
 '''
-first_number = int(input("Give me one number. "))
-second_number = int(input("Now give me another number. "))
-if first_number > second_number:
-    third_number = first_number - second_number
-    print(f"{first_number} is larger than {second_number} by {third_number}.")
-elif first_number < second_number:
-    third_number = second_number - first_number
-    print(f"{first_number} is smaller than {second_number} by {third_number}")
-elif first_number == second_number:
+number_1 = int(input("Give me one number. "))
+number_2 = int(input("Now give me another number. "))
+if number_1 > number_2:
+    number_3 = number_1 - number_2
+    print(f"{number_1} is larger than {number_2} by {number_3}.")
+elif number_1 < number_2:
+    number_3 = number_2 - number_1
+    print(f"{number_1} is smaller than {number_2} by {number_3}")
+elif number_1 == number_2:
     print("The two numbers are equal.")
 '''
 '''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
+'''
+number_1 = 1
+number_2 = 100
+compare_number_3 = int(input("Give me a number for the deal and we can go and check whether it will be possible to reach a consensus for today's dealings. "))
+if compare_number_3 > number_1 and compare_number_3 < number_2:
+    print("Hmm, I see, I think we can proceed with the deal then.")
+elif compare_number_3 > number_2:
+    print("Hmm, are you sure about that? You'll be the one at lost here.")
+else:
+    print("GO TO HELL!")
+
+OR YOU COULD DO IT LIKE THIS
+
+number_1 = 10
+number_2 = 500
+number_4 = 100
+compare_number_3 = int(input("Give me a number for the deal and we can go and check whether it will be possible to reach a consensus for today's dealings. "))
+if not (compare_number_3 > number_1 and compare_number_3 < number_2):
+    print("Hmm, I don't think it will be possible for us to strike up a deal.")
+elif compare_number_3 < number_4:
+    print("Erm, I think it's a bit too below my projected budget, maybe we can come to a better compromise?")
+else:
+    print("Sure! How would you like to proceed further?")
+'''
+'''
+ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+'''
+number_1 = int(input("Please type in a number."))
