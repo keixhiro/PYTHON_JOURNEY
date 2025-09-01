@@ -171,25 +171,24 @@ else:
 '''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
-print("You want to find out the orders in the letters?, then use the program below.")
+print("You want to find out the orders in the letters? Then use the program below.")
 print("Please type in the letters one by one.")
 letter_1 = input("Please type in a letter. ")
 letter_2 = input("Please type in another letter. ")
 letter_3 = input("Please type in a new letter. ")
-
-all_letters = [letter_1.upper(), letter_2.upper(), letter_3.upper()]
-insig_1 = casefold{"the first letter", "first", "the first"}
-insig_2 = casefold{"the second letter", "second", "the second"}
-insig_3 = casefold{"the third letter", "third", "the third"}
-first = all_letters
-middle = all_letters
-last = all_letters
-
+all_letters = [letter_1, letter_2, letter_3]
+all_letters_capital = all_letters.upper()
+sorted_all_letters = sorted(all_letters_capital)
+insig_1 = {"the first letter", "first", "the first"}
+insig_2 = {"the middle letter", "middle", "the middle"}
+insig_3 = {"the last letter", "last", "the last"}
+first = sorted_all_letters
+middle = sorted_all_letters
+last = sorted_all_letters
 answer_1 = input("What order would you like to know first? ")
 if answer_1 in insig_1:
- print(first)
+ print(sorted_all_letters[0])
 if answer_1 in insig_2:
- print(middle)
+ print(sorted_all_letters[1])
 if answer_1 in insig_3:
- print(last)
-
+ print(sorted_all_letters[2])
