@@ -168,3 +168,28 @@ if number_1 > 0 and number_1 <= 100:
 else:
     print("That's impossible!")
 '''
+'''
+ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+'''
+print("You want to find out the orders in the letters?, then use the program below.")
+print("Please type in the letters one by one.")
+letter_1 = input("Please type in a letter. ")
+letter_2 = input("Please type in another letter. ")
+letter_3 = input("Please type in a new letter. ")
+
+all_letters = [letter_1.upper(), letter_2.upper(), letter_3.upper()]
+insig_1 = casefold{"the first letter", "first", "the first"}
+insig_2 = casefold{"the second letter", "second", "the second"}
+insig_3 = casefold{"the third letter", "third", "the third"}
+first = all_letters
+middle = all_letters
+last = all_letters
+
+answer_1 = input("What order would you like to know first? ")
+if answer_1 in insig_1:
+ print(first)
+if answer_1 in insig_2:
+ print(middle)
+if answer_1 in insig_3:
+ print(last)
+
