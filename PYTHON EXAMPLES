@@ -192,3 +192,19 @@ if answer_1 in insig_2:
  print(sorted_all_letters[1])
 if answer_1 in insig_3:
  print(sorted_all_letters[2])
+
+answer_2 = input("What about the next one?")
+if answer_2 in insig_1:
+ print(sorted_all_letters[0])
+if answer_2 in insig_2:
+ print(sorted_all_letters[1])
+if answer_2 in insig_3:
+ print(sorted_all_letters[2])
+
+answer_3 = input("The last one?")
+if answer_3 in insig_1:
+ print(sorted_all_letters[0])
+if answer_3 in insig_2:
+ print(sorted_all_letters[1])
+if answer_3 in insig_3:
+ print(sorted_all_letters[2])
