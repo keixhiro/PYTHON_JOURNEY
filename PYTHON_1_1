@@ -80,5 +80,6 @@ else:
                                         STATUS: NOT STARTED
                                         GRADE CALCULATOR
 '''
-name = input("Dear students, you may access your grades and compute them manually for your own satisfaction. To start with, log on your name and password to access your peepee.")
-password = 
+name = input("Dear students, you may access your grades and compute them manually for your own satisfaction. To start with, type your name and password to access your peepee.")
+all_names =
+all_passwords = 
