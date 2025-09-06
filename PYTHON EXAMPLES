@@ -208,5 +208,3 @@ if answer_3 in insig_2:
  print(sorted_all_letters[1])
 if answer_3 in insig_3:
  print(sorted_all_letters[2])
-
-Bobo ko naman
