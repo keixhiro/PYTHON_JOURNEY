@@ -1,9 +1,4 @@
 period = (".")
-
-'''
-/
-?
-'''
 '''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
@@ -168,8 +163,7 @@ if number_1 > 0 and number_1 <= 100:
 else:
     print("That's impossible!")
 '''
-'''
-ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+
 '''
 print("You want to find out the orders in the letters? Then use the program below.")
 print("Please type in the letters one by one.")
@@ -208,3 +202,44 @@ if answer_3 in insig_2:
  print(sorted_all_letters[1])
 if answer_3 in insig_3:
  print(sorted_all_letters[2])
+'''
+'''
+ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+'''
+'''
+print('"Tax Calculator"')
+tax_input = 10
+tax_rate_1 = 5
+tax_condition_1 = 1
+tax_condition_2 = 1
+tax_condition_3 = 1
+tax_condition_4 = 1
+tax_input = float(input("If you want to calculate how much tax ia added after the price of your costs, please use this function. Type it here. "))
+if 1 <= tax_input < 1000000:
+    tax_rate_1 = 5
+    tax_calculation_part_1 = float(tax_input) * float(tax_rate_1) / 100
+    tax_calculation_part_2 = (float(tax_input) + tax_calculation_part_1)
+    print(f"The amount of tax that will be added accordingly to your spent currency is {tax_calculation_part_1}.")
+    print(f"The total amount that you will pay is {tax_calculation_part_2}.")
+if 1000000 <= tax_input < 5000000:
+    tax_rate_1 = 10
+    tax_calculation_part_1 = float(tax_input) * float(tax_rate_1) / 100
+    tax_calculation_part_2 = (float(tax_input) + tax_calculation_part_1)
+    print(f"The amount of tax that will be added accordingly to your spent currency is {tax_calculation_part_1}.")
+    print(f"The total amount that you will pay is {tax_calculation_part_2}.")
+if 5000000 <= tax_input <20000000:
+    tax_rate_1 = 20
+    tax_calculation_part_1 = float(tax_input) * float(tax_rate_1) / 100
+    tax_calculation_part_2 = (float(tax_input) + tax_calculation_part_1)
+    print(f"The amount of tax that will be added accordingly to your spent currency is {tax_calculation_part_1}.")
+    print(f"The total amount that you will pay is {tax_calculation_part_2}.")
+if 20000000 <= tax_input:
+    tax_rate_1 = 30
+    tax_calculation_part_1 = float(tax_input) * float(tax_rate_1) / 100
+    tax_calculation_part_2 = (float(tax_input) + tax_calculation_part_1)
+    print(f"The amount of tax that will be added accordingly to your spent currency is {tax_calculation_part_1}.")
+    print(f"The total amount that you will pay is {tax_calculation_part_2}.")
+...
+'''
+ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+'''
