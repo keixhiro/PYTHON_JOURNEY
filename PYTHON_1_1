@@ -77,9 +77,10 @@ else:
     print("Error! Please try again.")
 '''
 '''
-                                        STATUS: NOT STARTED
+                                        STATUS: DISCOUNTINUED
                                         GRADE CALCULATOR
 '''
 name = input("Dear students, you may access your grades and compute them manually for your own satisfaction. To start with, type your name and password to access your peepee.")
 all_names =
 all_passwords = 
+'''
