@@ -220,5 +220,23 @@ if 20000000 <= tax_input:
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
 '''
-While True:
-math_equation = float(input("Please put a random number a
+while True:
+  math_equation = float(input("Please put a random number for me to multiply. If it is an even number it shall be divided by 2, if it is an odd number, by 3, type -1 to stop this program from running.")
+  if math_equation == -1:
+    if math_equation % 2 == 0:
+    math_even = math_equation / 2
+    elif math_equation < 1000:
+    math_odd = math_equation / 3
+    elif math_equation > 1000:
+    math_odd_large = math_equation / 30
+    else:
+    print("Please try again. Double check your entry as letters and other information are not permitted, only numbers.")
+    break
+print("Thank you for using the program!")
+'''
+'''
+ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+'''
+
+
+
