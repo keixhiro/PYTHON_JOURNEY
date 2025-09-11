@@ -72,7 +72,6 @@ if answer_1:
 else:
     print("Aww, unfortunately, your answer it incorrect, you have the lost the current the round, better luck next time!")
     print(gameover)
-
 question_2 = input("Now, for the second round, the question is: What stands still but can't sit still 45 degrees on its own? ")
 answer_2 = {"HUMANS",
             "Humans",
@@ -139,7 +138,9 @@ if number_1 > 0 and number_1 <= 100:
 else:
     print("That's impossible!")
 '''
-
+'''
+ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+'''
 '''
 print("You want to find out the orders in the letters? Then use the program below.")
 print("Please type in the letters one by one.")
@@ -162,7 +163,6 @@ if answer_1 in insig_2:
  print(sorted_all_letters[1])
 if answer_1 in insig_3:
  print(sorted_all_letters[2])
-
 answer_2 = input("What about the next one? ")
 if answer_2 in insig_1:
  print(sorted_all_letters[0])
@@ -170,7 +170,6 @@ if answer_2 in insig_2:
  print(sorted_all_letters[1])
 if answer_2 in insig_3:
  print(sorted_all_letters[2])
-
 answer_3 = input("The last one? ")
 if answer_3 in insig_1:
  print(sorted_all_letters[0])
@@ -216,27 +215,25 @@ if 20000000 <= tax_input:
     print(f"The amount of tax that will be added accordingly to your spent currency is {tax_calculation_part_1}.")
     print(f"The total amount that you will pay is {tax_calculation_part_2}.")
 ...
-'''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
 '''
+math_result = 0
 while True:
-  math_equation = float(input("Please put a random number for me to multiply. If it is an even number it shall be divided by 2, if it is an odd number, by 3, type -1 to stop this program from running.")
-  if math_equation == -1:
-    if math_equation % 2 == 0:
-    math_even = math_equation / 2
+    math_equation = float(input("Please put a random number for me to multiply. If it is an even number it shall be divided by 2, if it is an odd number, by 3, type -1 to stop this program from running. "))
+    if math_equation == -1:
+        break
+    elif math_equation % 2 == 0:
+        math_result = math_equation / 2
+        print(f"The number you provided is now {math_result}.")
     elif math_equation < 1000:
-    math_odd = math_equation / 3
+        math_result = math_equation / 3
+        print(f"The number you provided is now {math_result}.")
     elif math_equation > 1000:
-    math_odd_large = math_equation / 30
-    else:
-    print("Please try again. Double check your entry as letters and other information are not permitted, only numbers.")
-    break
+        math_result = math_equation / 30
+        print(f"The number you provided is now {math_result}.")
 print("Thank you for using the program!")
 '''
 '''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
-
-
-
