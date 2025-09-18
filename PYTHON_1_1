@@ -76,7 +76,7 @@ if name in name_lists:
 else:
     print("Error! Please try again.")
 
-name =
+name = input( )
 '''
 '''
                                         STATUS: DISCONTINUED
