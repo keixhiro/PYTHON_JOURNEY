@@ -57,7 +57,7 @@ else:
                                         STATUS: UNFINISHED / IN PROGRESS
                                         INFORMATIONS ARCHIVE VIA SEARCHING
 '''
-'''
+
 print("WELCOME TO THE ARCHIVE OF THE ARTIINTEL CLOUD SILO!")
 name = input("WHAT IS YOUR NAME? ")
 name_lists = {"FRANCIS",
@@ -75,9 +75,28 @@ if name in name_lists:
     print("Please choose the category of information that you would like to choose:")
 else:
     print("Error! Please try again.")
+number_of_entries = 0
+users = {"FRANCIS"}
+while True: 
+    name = input("WHAT IS YOUR NAME? ")
+    name_password = input("WHAT IS YOUR PASSWORD? ")
+    number_of_entries += 1
+    if name in users:
+        if name_password in user_passwords:
+            successful_entry = True
+    else number_of_entries = 3
+        success = False
+        break
+print("Success?")
 
-name = input( )
-'''
+
+
+
+
+
+
+("Welcome! What would you like to access?")
+
 '''
                                         STATUS: DISCONTINUED
                                         GRADE CALCULATOR
