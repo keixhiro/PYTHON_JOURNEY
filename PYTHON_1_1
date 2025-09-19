@@ -56,7 +56,7 @@ else:
 
 #                                        STATUS: UNFINISHED / IN PROGRESS
 #                                        INFORMATIONS ARCHIVE VIA SEARCHING
-
+# VERSION 1
 '''
 print("WELCOME TO THE ARCHIVE OF THE ARTIINTEL CLOUD SILO!")
 name = input("WHAT IS YOUR NAME? ")
@@ -76,7 +76,8 @@ if name in name_lists:
 else:
     print("Error! Please try again.")
 '''
-
+# VERSION 2
+'''
 number_of_entries = 0
 successful_entry_1 = 0
 users = {"FRANCIS"}
@@ -109,6 +110,7 @@ while True:
 
 if checkpoint == 1:   # GINAGAWAMO BWHAHAHHA
     print("Fuck you.")
+'''
 #                                        STATUS: DISCONTINUED
 #                                        GRADE CALCULATOR
 
