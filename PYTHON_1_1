@@ -1,13 +1,13 @@
-'''
 comma = ", "
 exclamation_mark = "! "
 question_mark = "? "
 period = ". "
 space = " "
+
+#                                        STATUS: INITIALLY STARTED
+#                                        AMITYTALE PART 1
+
 '''
-'''
-                                        STATUS: INITIALLY STARTED
-                                        AMITYTALE PART 1
 print("...")
 greetings_1 = input("Hello world" + period)
 name_1 = input("What is your name" + question_mark)
@@ -53,11 +53,11 @@ else:
         name_1_alter_ego = input("Please enter your alter ego's name.")
         print(f"Well then, welcome to hell, Mr.{name_1_alter_ego}{exclamation_mark}")
 '''
-'''
-                                        STATUS: UNFINISHED / IN PROGRESS
-                                        INFORMATIONS ARCHIVE VIA SEARCHING
-'''
 
+#                                        STATUS: UNFINISHED / IN PROGRESS
+#                                        INFORMATIONS ARCHIVE VIA SEARCHING
+
+'''
 print("WELCOME TO THE ARCHIVE OF THE ARTIINTEL CLOUD SILO!")
 name = input("WHAT IS YOUR NAME? ")
 name_lists = {"FRANCIS",
@@ -75,32 +75,43 @@ if name in name_lists:
     print("Please choose the category of information that you would like to choose:")
 else:
     print("Error! Please try again.")
+'''
+
 number_of_entries = 0
+successful_entry_1 = 0
 users = {"FRANCIS"}
-while True: 
+user_passwords = {"CISCISCIS"}
+print("WELCOME TO THE ARCHIVE OF THE ARTIINTEL CLOUD SILO!")
+
+while True:
+    successful_entry_1 = False
     name = input("WHAT IS YOUR NAME? ")
-    name_password = input("WHAT IS YOUR PASSWORD? ")
     number_of_entries += 1
     if name in users:
+        name_password = input("WHAT IS YOUR PASSWORD? ")
         if name_password in user_passwords:
-            successful_entry = True
-    else number_of_entries = 3
-        success = False
+            successful_entry_1 = True
+            checkpoint = 1
+            break
+    elif number_of_entries == 3:
+        checkpoint = 0
+        successful_entry_1 = False
         break
-print("Success?")
+    elif number_of_entries < 3:
+        checkpoint = 0
+        successful_entry_1 = False
+    if successful_entry_1:
+        print(f"Welcome Mx. {name}! What would you like to access? ")
+    elif number_of_entries < 3:
+        print("Err! Please try again later.")
+    else:
+        print("You have provided the wrong details consecutively in the span of a few minutes, please try again later.")
 
+if checkpoint == 1:   # GINAGAWAMO BWHAHAHHA
+    print("Fuck you.")
+#                                        STATUS: DISCONTINUED
+#                                        GRADE CALCULATOR
 
-
-
-
-
-
-("Welcome! What would you like to access?")
-
-'''
-                                        STATUS: DISCONTINUED
-                                        GRADE CALCULATOR
-'''
 '''
 name = input("Dear students, you may access your grades and compute them manually for your own satisfaction. To start with, type your name and password to access your peepee.")
 all_names =
