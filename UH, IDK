@@ -35,3 +35,4 @@ print("...")
 print("...")
 name_1_alter_ego = input("Please enter your alter ego's name.")
 print(f"Welcome to hell, Mr.{name_1_alter_ego}{exclamation_mark}")
+Bossing, musta na bossing?
