@@ -237,3 +237,13 @@ print("Thank you for using the program!")
 '''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
+
+words = ""
+while True:
+    word = input("Please write words that you want to compose together in a sentence. ")
+    if word in words:
+        break
+    words += word + " "
+    # When it's like this, you can't input strings that start with anything that's not supposed to have any space before it, such as commas
+words += "."
+print(words)
