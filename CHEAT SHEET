@@ -2,6 +2,18 @@
 hi, sige na, sisimulan na talaga kita
 print (" ")
 print (' ')
+print(1+1)
+print(1-1)
+print(1*1)
+print(1/1)
+print(1//1)
+print(1**1)
+print(1%1)
+''''''
+#
+" ' Francis ' "
+' '' Francis " '
+value = input(" ")
 
 
 
