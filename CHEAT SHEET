@@ -1,7 +1,8 @@
-'''
-hi, sige na, sisimulan na talaga kita
-print (" ")
-print (' ')
+
+
+print("information")
+print('information')
+print(value)
 print(1+1)
 print(1-1)
 print(1*1)
@@ -9,12 +10,44 @@ print(1/1)
 print(1//1)
 print(1**1)
 print(1%1)
-''''''
+print("information, " + value + " information")
+print(value + " information")
+
+# ORDER OF OPERATIONS Basic mathematics
+# Printing after adding; printing after adding string value and integer value
+value1 = 1
+value2 = 2
+print(value1 + value2)
+value3 = value1 + value2
+print(int(value1) + 1)
+#Printing string and integer value
+print("The information is " + int(value3))
+
+
 #
+
+
 " ' Francis ' "
 ' '' Francis " '
-value = input(" ")
+
+
+value = "information"
+# STR string type value
+value = "10"
+# INT integer type value
+value = 10
+
+value = input("information")
+# series of input syntaxes to change the same value but with different printed strings
+value = input("information?")
+value = input("information.")
+
+value1 = "information"
+value2 = "information"
+value = value1 + " " + value2
 
 
 
-'''
+
+
+
