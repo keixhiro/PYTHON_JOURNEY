@@ -3,6 +3,7 @@
 print("information")
 print('information')
 print(value)
+# ORDER OF OPERATIONS Printing basic mathematics
 print(1+1)
 print(1-1)
 print(1*1)
@@ -10,18 +11,21 @@ print(1/1)
 print(1//1)
 print(1**1)
 print(1%1)
+# PRINTING strings with string values
 print("information, " + value + " information")
 print(value + " information")
 
 # ORDER OF OPERATIONS Basic mathematics
-# Printing after adding; printing after adding string value and integer value
 value1 = 1
 value2 = 2
+print(value1 + 1)
 print(value1 + value2)
 value3 = value1 + value2
+# PRINTING basic mathematics string value and integer value
+value1 = "1"
 print(int(value1) + 1)
-#Printing string and integer value
-print("The information is " + int(value3))
+# Printing string and integer value
+print("The information is " + str(value3))
 
 
 #
