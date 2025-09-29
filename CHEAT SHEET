@@ -1,8 +1,8 @@
 
-
 print("information")
 print('information')
 print(value)
+
 # ORDER OF OPERATIONS Printing basic mathematics
 print(1+1)
 print(1-1)
@@ -11,9 +11,16 @@ print(1/1)
 print(1//1)
 print(1**1)
 print(1%1)
-# PRINTING strings with string values
+
+# PRINTING Strings with variables
 print("information, " + value + " information")
 print(value + " information")
+value1 = "information"
+value2 = "information"
+value = value1 + " " + value2
+print(value)
+# F-strings with variables
+print(f"The information is {value1}")x
 
 # ORDER OF OPERATIONS Basic mathematics
 value1 = 1
@@ -21,34 +28,32 @@ value2 = 2
 print(value1 + 1)
 print(value1 + value2)
 value3 = value1 + value2
-# PRINTING basic mathematics string value and integer value
+
+# PRINTING Basic mathematics with string value and integer value
 value1 = "1"
 print(int(value1) + 1)
 # Printing string and integer value
+value1 = 1
+value2 = 2
+value3 = value1 + value2
 print("The information is " + str(value3))
-
+print("The information is ", value3)
 
 #
-
-
 " ' Francis ' "
 ' '' Francis " '
 
-
 value = "information"
-# STR string type value
+# STR String type value
 value = "10"
-# INT integer type value
+# INT Integer type value
 value = 10
 
 value = input("information")
-# series of input syntaxes to change the same value but with different printed strings
+# INPUT Series of input syntaxes to change the same value but with different printed strings
 value = input("information?")
 value = input("information.")
 
-value1 = "information"
-value2 = "information"
-value = value1 + " " + value2
 
 
 
