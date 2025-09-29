@@ -7,37 +7,42 @@ print(value)
 print(1+1)
 print(1-1)
 print(1*1)
+# ORDER OF OPERATIONS Floating value
 print(1/1)
+# ORDER OF OPERATIONS Integer value
 print(1//1)
 print(1**1)
+# ORDER OF OPERATIONS Modulo
 print(1%1)
 
 # PRINTING Strings with variables
 print("information, " + value + " information")
 print(value + " information")
+# OR
 value1 = "information"
 value2 = "information"
 value = value1 + " " + value2
 print(value)
-# F-strings with variables
-print(f"The information is {value1}")x
+# PRINTING F-strings with variables
+print(f"The information is {value1}")
 
 # ORDER OF OPERATIONS Basic mathematics
 value1 = 1
 value2 = 2
 print(value1 + 1)
+# OR
 print(value1 + value2)
 value3 = value1 + value2
 
 # PRINTING Basic mathematics with string value and integer value
 value1 = "1"
 print(int(value1) + 1)
-# Printing string and integer value
+# PRINTING String and integer value
 value1 = 1
 value2 = 2
 value3 = value1 + value2
 print("The information is " + str(value3))
-print("The information is ", value3)
+print("If the information is ", value3, "then", value3, "is the information.")
 
 #
 " ' Francis ' "
@@ -53,10 +58,10 @@ value = input("information")
 # INPUT Series of input syntaxes to change the same value but with different printed strings
 value = input("information?")
 value = input("information.")
-
-
-
-
-
-
+# INPUT Numbers and register as integer value
+value1 = input("information")
+value2 = int(value1)
+input(int(input("information")))
+# PRINT 
+print
 
