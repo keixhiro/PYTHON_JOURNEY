@@ -30,7 +30,7 @@ print(f"The information is {value1}")
 value1 = 1
 value2 = 2
 print(value1 + 1)
-# OR
+    # OR
 print(value1 + value2)
 value3 = value1 + value2
 
@@ -59,12 +59,15 @@ value = input("information")
 value = input("information?")
 value = input("information.")
 # INPUT Series of input syntaxes to change the same value but with different integer values
-value = 0
-
-# INPUT 
+value0 = 0
+value1 = int(input("information?"))
+value0 = value0 + value1
+value1 = int(input("information.")
+value0 = value0 + value1
+# INPUT Numbers and register as integer value
 value1 = input("information")
 value2 = int(value1)
-#OR
+   # OR
 input(int(input("information")))
 # PRINT
 print
