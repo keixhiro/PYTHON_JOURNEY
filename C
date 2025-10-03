@@ -7,16 +7,15 @@ int mainJ(void){
 
 #include <stdio.h>
 
-int main() {
-    // Exercise 1: Print name and address using multiple printf statements
-    printf("Name: Juan Dela Cruz\n");
-    printf("Address: 123 Example Street\n");
-    printf("City: Sample City\n");
+int main(){
+    printf(Francis Earl Montes Fernandez\n");
+    printf(Phase 4, Block 12, Street 13, Pacita Avenue 1, Pacita Complex\n");
+    printf(San Pedro City\n");
 
     // Exercise 2: Short poem or quote using a single printf
     printf("\n\"Success is not final,\n"
            "failure is not fatal:\n"
-           "It is the courage to continue that counts.\"\n"
+           "It is the couage to continue that counts.\"\n"
            "- Winston Churchill\n");
 
     // Exercise 3: Abstract art using a single printf
@@ -34,4 +33,4 @@ int main() {
            "  v\n");
 
     return 0;
-    }
+}
