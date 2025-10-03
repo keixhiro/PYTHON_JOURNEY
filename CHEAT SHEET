@@ -53,7 +53,7 @@ value = "information"
 value = "10"
 # INT Integer type value
 value = 10
-
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 value = input("information")
 # INPUT Series of input syntaxes to change the same value but with different string values
 value = input("information?")
@@ -72,3 +72,4 @@ input(int(input("information")))
 # PRINT
 print
 # INPUT 
+
