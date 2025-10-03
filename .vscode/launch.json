@@ -3,5 +3,11 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+#include <studio.h>
+
+int mainJ(void){
+    printf("Hello World");
+    return(0);
+}]
 }
