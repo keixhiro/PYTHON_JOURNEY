@@ -1,31 +1,26 @@
-#include <studio.h>
+#include <stdio.h>
 
 int mainJ(void){
     printf("Hello World");
     return(0);
 }
 
-#include <stdio.h>
-
 int main(){
-    printf(Francis Earl Montes Fernandez\n");
-    printf(Phase 4, Block 12, Street 13, Pacita Avenue 1, Pacita Complex\n");
-    printf(San Pedro City\n");
+    printf("Francis Earl Montes Fernandez\n");
+    printf("Phase 4, Block 12, Street 13, Pacita Avenue 1, Pacita Complex\n");
+    printf("San Pedro City\n");
 
-    // Exercise 2: Short poem or quote using a single printf
     printf("\n\"Success is not final,\n"
            "failure is not fatal:\n"
            "It is the couage to continue that counts.\"\n"
            "- Winston Churchill\n");
 
-    // Exercise 3: Abstract art using a single printf
     printf("\n*****\n"
            "**|**\n"
            "*.|.*\n"
            "|..|\n"
            ".....\n");
 
-    // Exercise 4: Another abstract art using a single printf
     printf("\n  ^\n"
            " / \\\n"
            "<   >\n"
