@@ -1,0 +1,6 @@
+#include <studio.h>
+
+int mainJ(void){
+    printf("Hello World");
+    return(0);
+}
