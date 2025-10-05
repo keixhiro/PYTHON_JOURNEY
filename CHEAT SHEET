@@ -3,19 +3,27 @@ print("information")
 print('information')
 print(value)
 
-# ORDER OF OPERATIONS Printing basic mathematics
+# ORDER OF OPERATIONS
+# Printing basic mathematics
 print(1+1)
 print(1-1)
 print(1*1)
-# ORDER OF OPERATIONS Floating value
+
+# ORDER OF OPERATIONS
+# Floating value
 print(1/1)
-# ORDER OF OPERATIONS Integer value
+
+# ORDER OF OPERATIONS
+# Integer value
 print(1//1)
 print(1**1)
-# ORDER OF OPERATIONS Modulo
+
+# ORDER OF OPERATIONS
+# Modulo
 print(1%1)
 
-# PRINTING Strings with variables
+# PRINTING
+# Strings with variables
 print("information, " + value + " information")
 print(value + " information")
 # OR
@@ -23,10 +31,12 @@ value1 = "information"
 value2 = "information"
 value = value1 + " " + value2
 print(value)
-# PRINTING F-strings with variables
+# PRINTING
+# F-strings with variables
 print(f"The information is {value1}")
 
-# ORDER OF OPERATIONS Basic mathematics
+# ORDER OF OPERATIONS and PRINTING
+# Basic mathematics
 value1 = 1
 value2 = 2
 print(value1 + 1)
@@ -34,10 +44,13 @@ print(value1 + 1)
 print(value1 + value2)
 value3 = value1 + value2
 
-# PRINTING Basic mathematics with string value and integer value
+# PRINTING
+# Basic mathematics with string value and integer value
 value1 = "1"
 print(int(value1) + 1)
-# PRINTING String and integer value
+
+# PRINTING
+# String and integer value
 value1 = 1
 value2 = 2
 value3 = value1 + value2
@@ -47,30 +60,49 @@ print("If the information is ", value3, "then", value3, "is the information.")
 #
 " ' Francis ' "
 ' '' Francis " '
-
 value = "information"
-# STR String type value
+
+# STR
+# String type value
 value = "10"
-# INT Integer type value
+
+# INT
+# Integer type value
 value = 10
 OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+# INPUT
+# Series of input syntaxes to change the same value but with different string values
 value = input("information")
-# INPUT Series of input syntaxes to change the same value but with different string values
 value = input("information?")
 value = input("information.")
-# INPUT Series of input syntaxes to change the same value but with different integer values
+# INPUT
+# Series of input syntaxes to change the same value but with different integer values
 value0 = 0
+value1 = int(input("information"))
+value0 = value0 + value1
 value1 = int(input("information?"))
 value0 = value0 + value1
 value1 = int(input("information.")
 value0 = value0 + value1
-# INPUT Numbers and register as integer value
+    #OR
+value0 = 0
+value1 = int(input("information"))
+value0 += value1
+value1 = int(input("information?"))
+value0 += value1
+value1 = int(input("information."))
+value0 += value1
+    #OR
+value0 = 0
+value0 += int(input("information"))
+value0 += int(input("information?"))
+value0 += int(input("information."))
+
+# INPUT
+# Numbers and register as integer value
 value1 = input("information")
 value2 = int(value1)
-   # OR
+    # OR
 input(int(input("information")))
-# PRINT
-print
-# INPUT 
 
-f
