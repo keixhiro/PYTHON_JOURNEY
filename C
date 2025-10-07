@@ -30,3 +30,75 @@ int main(){
     return 0;
 }
 
+#include <stdio.h>
+
+int main() {
+    
+    printf("Seatwork 1:\n");
+    
+    
+    
+    printf("\n");
+    printf("Number 1:\n");
+    int age = 21;
+    float height = 153.4;
+    float weight = 45.3;
+
+    printf("My age: %d years\n", age);
+    printf("My height: %.1f cm\n", height);
+    printf("My weight: %.1f kg\n", weight);
+    
+    
+    
+    printf("\n");
+    printf("Number 2:\n");
+    char name[30];
+
+    printf("Please enter your name: ");
+    scanf("%29s", name);
+    printf("Hello, %s! It's very nice to meet you!\n", name);
+    
+    
+    
+    printf("\n");
+    printf("Number 3:\n");
+    const float length = 30.09;
+    const float width = 90.03;
+    float area;
+
+    area = length * width;
+
+    printf("Length: %f\n", length);
+    printf("Width: %f\n", width);
+    printf("Area of rectangle: %f\n", area);
+
+
+
+    printf("\n");
+    printf("Number 4:\n");
+    float num1, num2;
+
+    printf("Enter the first number: ");
+    scanf("%f", &num1);
+    printf("Enter the second number: ");
+    scanf("%f", &num2);
+
+    printf("Sum:%.2f\n", num1 + num2);
+    printf("Difference:%.2f\n", num1 - num2);
+    printf("Product:%.2f\n", num1 * num2);
+
+
+
+    printf("\n");
+    printf("Number 5:\n");
+    float celsius, fahrenheit;
+
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
+
+    fahrenheit = (celsius * 9 / 5) + 32;
+
+    printf("%f°C = %f°F \n", celsius, fahrenheit);
+
+    return 0;
+}
