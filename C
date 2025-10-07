@@ -30,8 +30,6 @@ int main(){
     return 0;
 }
 
-#include <stdio.h>
-
 int main() {
     
     printf("Seatwork 1:\n");
@@ -93,7 +91,7 @@ int main() {
     printf("Number 5:\n");
     float celsius, fahrenheit;
 
-    printf("Enter temperature in Celsius: ");
+    printf("Enter the temperature in Celsius: ");
     scanf("%f", &celsius);
 
     fahrenheit = (celsius * 9 / 5) + 32;
