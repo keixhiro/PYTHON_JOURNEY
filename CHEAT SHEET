@@ -22,6 +22,14 @@ print(1**1)
 # Modulo
 print(1%1)
 
+# ORDER OF OPERATIONS
+# Square root
+from math import sqrt
+print(sqrt(9))
+
+# IDENTIFIERS
+# Length of word
+print(len("information"))
 # PRINTING
 # Strings with variables
 print("information, " + value + " information")
@@ -83,7 +91,7 @@ value1 = int(input("information"))
 value0 = value0 + value1
 value1 = int(input("information?"))
 value0 = value0 + value1
-value1 = int(input("information.")
+value1 = int(input("information."))
 value0 = value0 + value1
     #OR
 value0 = 0
@@ -105,4 +113,7 @@ value1 = input("information")
 value2 = int(value1)
     # OR
 input(int(input("information")))
-
+'''
+Hint: you can print an empty line by adding an empty print command, or by adding the newline character \n into your string.
+Each print command usually prints out a line of its own, complete with a change of line at the end. However, if the print command is given an additional argument end = "", it will not print a line change.
+'''
