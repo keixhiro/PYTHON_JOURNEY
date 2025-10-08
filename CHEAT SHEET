@@ -1,7 +1,17 @@
 
+#PRINTING
+#Basic printing
 print("information")
 print('information')
 print(value)
+
+#PRINTING
+# Empty line
+print(\n)
+
+# SYNTAXES / FUNCTIONS
+# Remove natural endline
+end = ""
 
 # ORDER OF OPERATIONS
 # Printing basic mathematics
@@ -113,7 +123,6 @@ value1 = input("information")
 value2 = int(value1)
     # OR
 input(int(input("information")))
-'''
-Hint: you can print an empty line by adding an empty print command, or by adding the newline character \n into your string.
-Each print command usually prints out a line of its own, complete with a change of line at the end. However, if the print command is given an additional argument end = "", it will not print a line change.
-'''
+
+
+
