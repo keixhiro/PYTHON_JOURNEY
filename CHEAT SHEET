@@ -8,6 +8,14 @@ print(value)
 #PRINTING
 # Empty line
 print(\n)
+      
+# STR
+# String type value
+value = "10"
+
+# INT
+# Integer type value
+value = 10
 
 # SYNTAXES / FUNCTIONS
 # Remove natural endline
@@ -62,12 +70,12 @@ print(value1 + 1)
 print(value1 + value2)
 value3 = value1 + value2
 
-# PRINTING
+# ORDER OF OPERATIONS and PRINTING
 # Basic mathematics with string value and integer value
 value1 = "1"
 print(int(value1) + 1)
 
-# PRINTING
+# ORDER OF OPERATIONS and PRINTING
 # String and integer value
 value1 = 1
 value2 = 2
@@ -80,20 +88,12 @@ print("If the information is ", value3, "then", value3, "is the information.")
 ' '' Francis " '
 value = "information"
 
-# STR
-# String type value
-value = "10"
-
-# INT
-# Integer type value
-value = 10
-OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-
 # INPUT
 # Series of input syntaxes to change the same value but with different string values
 value = input("information")
 value = input("information?")
 value = input("information.")
+
 # INPUT
 # Series of input syntaxes to change the same value but with different integer values
 value0 = 0
@@ -118,11 +118,9 @@ value0 += int(input("information?"))
 value0 += int(input("information."))
 
 # INPUT
-# Numbers and register as integer value
+# Numbers and register as integer  or floating value
 value1 = input("information")
 value2 = int(value1)
     # OR
-input(int(input("information")))
-
-
+input(float(input("information")))
 
