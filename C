@@ -27,15 +27,10 @@ int main(){
            " \\ /\n"
            "  v\n");
 
-    return 0;
-}
-
-int main() {
-    
     printf("Seatwork 1:\n");
-    
-    
-    
+
+
+
     printf("\n");
     printf("Number 1:\n");
     int age = 21;
@@ -45,9 +40,9 @@ int main() {
     printf("My age: %d years\n", age);
     printf("My height: %.1f cm\n", height);
     printf("My weight: %.1f kg\n", weight);
-    
-    
-    
+
+
+
     printf("\n");
     printf("Number 2:\n");
     char name[30];
@@ -55,9 +50,9 @@ int main() {
     printf("Please enter your name: ");
     scanf("%29s", name);
     printf("Hello, %s! It's very nice to meet you!\n", name);
-    
-    
-    
+
+
+
     printf("\n");
     printf("Number 3:\n");
     const float length = 30.09;
@@ -97,6 +92,40 @@ int main() {
     fahrenheit = (celsius * 9 / 5) + 32;
 
     printf("%f°C = %f°F \n", celsius, fahrenheit);
+
+    # include <stdio.h>
+
+    char name[25];
+    int id;
+    float math, science, english;
+    float average;
+
+    printf("Enter student name: ");
+    scanf("%24[^\n]", name);
+    printf("Enter student id: ");
+    scanf("%d", &id);
+
+    printf("Enter grade in Math: ");
+    scanf("%f", &math);
+    printf("Enter grade in Science: ");
+    scanf("%f", &science);
+    printf("Enter grade in English: ");
+    scanf("%f", &english);
+
+    average = (math + science + english) / 3;
+
+    printf("\nStudent Name: %s", name);
+    printf("\nStudent ID: %d", id);
+    printf("\nGrade in Math: %.2f", math);
+    printf("\nGrade in Science:%.2f", science);
+    printf("\nGrade in Science:%.2f", english);
+    printf("\n--------------------------");
+    printf("\nAverage Grade: %.2f", average);
+
+    if (average>=75)
+        printf("\nYou have passed!");
+    else
+        printf("\nYou have failed!");
 
     return 0;
 }
