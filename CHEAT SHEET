@@ -56,7 +56,7 @@ print(value + " information")
 # OR
 value1 = "information"
 value2 = "information"
-value = value1 + " " + value2
+value3 = value1 + " " + value2
 print(value)
 # PRINTING
 # F-strings with variables
@@ -125,3 +125,8 @@ value2 = int(value1)
     # OR
 input(float(input("information")))
 
+# CONDITIONAL STATEMENTS
+# If statements
+if value = 0;
+    print(value)
+    
