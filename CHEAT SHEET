@@ -129,4 +129,5 @@ input(float(input("information")))
 # If statements
 if value = 0:
     print(value)
-    
+
+# COMPARISON OPERATORS
