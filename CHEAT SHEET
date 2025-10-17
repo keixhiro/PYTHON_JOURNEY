@@ -153,3 +153,13 @@ print(value1)
 if value1:
     print("value1)
 
+# CONDITIONAL STATEMENTS
+# If, elif, else statements
+value = 0
+if value = 0:
+    print("information")
+elif value > = 0:
+    print("information?")
+else:
+    print("information.")
+
