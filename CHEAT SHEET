@@ -10,12 +10,18 @@ print(value)
 print(\n)
       
 # STR
-# String type value
+# String data type
 value = "10"
 
 # INT
-# Integer type value
+# Integer data type
 value = 10
+
+# FLOAT
+# Floating data type
+
+# BOOLEAN VALUE
+5-1 < 5
 
 # SYNTAXES / FUNCTIONS
 # Remove natural endline
