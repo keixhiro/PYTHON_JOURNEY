@@ -164,6 +164,9 @@ else:
     print("information.")
 
 # CONDITIONAL STATEMENTS
-# 
+# AND Logical Operator
+if value <= 0 and value >= 0:
+    print("information")
 
-FUCK
+# CONDITIONAL STATEMENTS
+# OR Logical Operator
