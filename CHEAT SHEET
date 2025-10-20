@@ -203,3 +203,5 @@ if value1 = 0:
 
 # LOOPS
 # SIMPLE LOOPS
+while True:
+    value = 
