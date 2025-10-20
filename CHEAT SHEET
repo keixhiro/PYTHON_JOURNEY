@@ -196,3 +196,10 @@ if value1 =< 0 or value1 => 0:
 if value1 = 0:
     if value1 = 0:
         print("information")
+
+
+
+
+
+# LOOPS
+# SIMPLE LOOPS
