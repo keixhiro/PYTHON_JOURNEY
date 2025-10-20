@@ -170,3 +170,5 @@ if value <= 0 and value >= 0:
 
 # CONDITIONAL STATEMENTS
 # OR Logical Operator
+if value <= 0 or value >= 0:
+    print("information")
