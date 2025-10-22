@@ -212,4 +212,27 @@ while True:
 
 print("information.")
 
-erm
+# LOOPS
+# HELPER VARIABLE
+attempts = 0
+while True:
+    value1 = input("What is the password ")
+    attempts += 1
+
+    if value1  == "1":
+        correct = True
+        break
+        
+    if attempts == 3:
+        correct = False
+        break
+        
+    print("Please try again")
+
+if correct:
+    print("Correct password")
+else:
+    print("Please try again after a few minutes")
+
+# LOOPS
+# CONCATENATING STRINGS WITH + OPERATOR
