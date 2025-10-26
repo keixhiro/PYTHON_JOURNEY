@@ -77,7 +77,7 @@ else:
     print("Error! Please try again.")
 '''
 # VERSION 2
-'''
+
 number_of_entries = 0
 successful_entry_1 = 0
 users = {"FRANCIS"}
@@ -94,6 +94,7 @@ while True:
             successful_entry_1 = True
             checkpoint = 1
             break
+'''arghhhhhhhhhhhhhhhhhhhhhhh'''
     elif number_of_entries == 3:
         checkpoint = 0
         successful_entry_1 = False
@@ -110,7 +111,7 @@ while True:
 
 if checkpoint == 1:   # GINAGAWAMO BWHAHAHHA
     print("Fuck you.")
-'''
+
 #                                        STATUS: DISCONTINUED
 #                                        GRADE CALCULATOR
 
