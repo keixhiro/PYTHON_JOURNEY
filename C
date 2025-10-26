@@ -116,6 +116,22 @@ int main(){
     else
         printf("\nYou have failed!");
 
+	float monthlyincome, desiredloan;
+    int age;
+
+    printf("Enter monthly income: ");
+    scanf("%f", &monthlyincome);
+    printf("Enter age: ");
+    scanf("%d", &age);
+    printf("Enter desired loan amount: ");
+    scanf("%f", &desiredloan);
+
+    if (monthlyincome >= 15000 && age >= 18 && age <= 65 && desiredloan <= monthlyincome * 10) {
+        printf("\nCongratulations! You are eligible for the loan.\n");
+    } else {
+        printf("\nSorry, you do not meet the loan eligibility requirements.\n");
+    }
+
     return 0;
 }
 
