@@ -8,7 +8,7 @@ if answer_1:
     points = 1
     total_points += points
 else:
-    print("Aww, unfortunately, your answer it incorrect, you have the lost the current the round, better luck next time!")
+    print("Aww, unfortunately, your answer is incorrect, you have the lost the current the round, better luck next time!")
     print(gameover)
 question_2 = input("Now, for the second round, the question is: What stands still but can't sit still 45 degrees on its own? ")
 answer_2 = {"HUMANS",
