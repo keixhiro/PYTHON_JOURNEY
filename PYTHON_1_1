@@ -78,40 +78,34 @@ else:
 '''
 # VERSION 2
 
-number_of_entries = 0
-successful_entry_1 = 0
-users = {"FRANCIS"}
-user_passwords = {"CISCISCIS"}
+number_of_entries_name = 0
+number_of_entries_password = 0
+output_names = {"FRANCIS"}
+output_passwords = {"CISCISCIS"}
 print("WELCOME TO THE ARCHIVE OF THE ARTIINTEL CLOUD SILO!")
 
 while True:
-    successful_entry_1 = False
-    name = input("WHAT IS YOUR NAME? ")
-    number_of_entries += 1
-    if name in users:
-        name_password = input("WHAT IS YOUR PASSWORD? ")
-        if name_password in user_passwords:
-            successful_entry_1 = True
-            checkpoint = 1
+    input_names = input("WHAT IS YOUR NAME? ")
+    number_of_entries_name += 1
+    
+    if input_names in output_names:
+        input_passwords = input("WHAT IS YOUR PASSWORD? ")
+        if input_passwords in output_passwords:
+            print(f"Welcome Mx. {input_names}! What would you like to access? ")
             break
-'''arghhhhhhhhhhhhhhhhhhhhhhh'''
-    elif number_of_entries == 3:
-        checkpoint = 0
-        successful_entry_1 = False
-        break
-    elif number_of_entries < 3:
-        checkpoint = 0
-        successful_entry_1 = False
-    if successful_entry_1:
-        print(f"Welcome Mx. {name}! What would you like to access? ")
-    elif number_of_entries < 3:
-        print("Err! Please try again later.")
-    else:
+            number_of_entries_password += 1
+        elif number_of_entries_password < 3:
+            print("Err! Please try again.")
+        elif number_of_entries_password > 2:
+            print("You have provided the wrong details consecutively in the span of a few minutes, please try again later.")
+            break
+
+    elif number_of_entries_name < 3:
+        print("Err! Please try again.")
+    elif number_of_entries_name > 2:
         print("You have provided the wrong details consecutively in the span of a few minutes, please try again later.")
-
-if checkpoint == 1:   # GINAGAWAMO BWHAHAHHA
-    print("Fuck you.")
-
+        break
+        
 #                                        STATUS: DISCONTINUED
 #                                        GRADE CALCULATOR
 
