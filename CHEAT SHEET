@@ -114,13 +114,13 @@ print("If the information is ", value3, "then", value3, "is the information.")
 
 
 # INPUT
-# Series of input syntaxes to change the same value but with different string values
+# Series of input syntaxes to change same value with different string values
 value = input("information")
 value = input("information?")
 value = input("information.")
 
 # INPUT
-# Series of input syntaxes to change the same value but with different integer values
+# Series of input syntaxes to change same value with different integer values
 value1 = 0
 value2 = int(input("information"))
 value1 = value1 + value2
@@ -143,7 +143,7 @@ value1 += int(input("information?"))
 value1 += int(input("information."))
 
 # INPUT
-# Numbers and register as integer  or floating value
+# Numbers inputted as integer or floating value
 value1 = input("information")
 value2 = int(value1)
     # OR
@@ -225,4 +225,4 @@ else:
     print("Please try again after a few minutes")
 
 # LOOPS
-# CONCATENATING STRINGS WITH + OPERATOR
+# CONCATENATING STRINGS
