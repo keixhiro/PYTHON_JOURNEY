@@ -226,3 +226,18 @@ else:
 
 # LOOPS
 # CONCATENATING STRINGS
+value1_1 = ""
+attempts = 0
+while True:
+    value1 = input("information")
+    value1_1 += value1
+    attempts += 1
+
+    if value1  == "1":
+        correct = True
+        break
+    elif attempts == 3:
+        correct = False
+        break
+print(value1_1)
+
