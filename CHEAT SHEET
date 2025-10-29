@@ -240,4 +240,3 @@ while True:
         correct = False
         break
 print(value1_1)
-
