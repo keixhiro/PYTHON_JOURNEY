@@ -57,7 +57,7 @@ else:
                                                             # STATUS: UNFINISHED / IN PROGRESS
                                                             # INFORMATIONS ARCHIVE VIA SEARCHING
 
-
+'''
 number_of_entries_name = 0
 number_of_entries_password = 0
 output_names = {"FRANCIS"}
@@ -91,8 +91,10 @@ while True:
 if signal_for_new_name > 0:
     # NAKO WALA PA NGA PALA AKONG KNOWLEDGE WHEN IT COMES TO ADDING IN LISTS, STRINGS LANG HAHAHA
 
+'''
                                                             # STATUS: DISCONTINUED
                                                             # GRADE CALCULATOR
+
 '''
 name = input("Dear students, you may access your grades and compute them manually for your own satisfaction. To start with, type your name and password to access your peepee.")
 all_names =

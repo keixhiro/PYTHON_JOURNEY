@@ -64,7 +64,7 @@ else:
 '''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
-'''
+
 print("You want to find out the orders in the letters? Then use the program below.")
 print("Please type in the letters one by one.")
 letter_1 = input("Please type in a letter. ")
@@ -100,7 +100,7 @@ if answer_3 in insig_2:
  print(sorted_all_letters[1])
 if answer_3 in insig_3:
  print(sorted_all_letters[2])
-'''
+
 '''
 ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 '''
