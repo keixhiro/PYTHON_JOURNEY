@@ -192,7 +192,7 @@ if value1 == 0:
 
 
 
-# LOOPS
+# WHILE LOOPS
 # SIMPLE LOOPS
 while True:
     value1 = int(input("information"))
@@ -203,7 +203,7 @@ print("information?")
 
 print("information.")
 
-# LOOPS
+# WHILE LOOPS
 # HELPER VARIABLE
 attempts = 0
 while True:
@@ -224,7 +224,7 @@ if correct:
 else:
     print("Please try again after a few minutes")
 
-# LOOPS
+# WHILE LOOPS
 # CONCATENATING STRINGS
 value1_1 = ""
 attempts = 0
@@ -241,3 +241,5 @@ while True:
         break
 print(value1_1)
 
+# WHILE LOOPS
+# WITH CONDITIONS
