@@ -239,6 +239,7 @@ while True:
     elif attempts == 3:
         correct = False
         break
+
 print(value1_1)
 
 # WHILE LOOPS
