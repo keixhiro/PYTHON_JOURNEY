@@ -15,6 +15,8 @@ int main(){
            "It is the couage to continue that counts.\"\n"
            "- Winston Churchill\n");
 
+
+
     printf("\n*****\n"
            "**|**\n"
            "*.|.*\n"
@@ -26,6 +28,7 @@ int main(){
            "<   >\n"
            " \\ /\n"
            "  v\n");
+
 
 
     printf("Seatwork 1:\n");
@@ -84,6 +87,8 @@ int main(){
 
     printf("%f°C = %f°F \n", celsius, fahrenheit);
 
+
+
     char name[25];
     int id;
     float math, science, english;
@@ -132,7 +137,41 @@ int main(){
         printf("\nSorry, you do not meet the loan eligibility requirements.\n");
     }
 
+
+
+    int mealChoice, membership;
+    float price = 0.0, discount = 0.0, finalPrice = 0.0;
+
+    printf("Meal Options:\n");
+    printf("1. Burger Meal - 150 pesos\n");
+    printf("2. Chicken Meal - 200 pesos\n");
+    printf("3. Pasta Meal - 250 pesos\n");
+    printf("\nEnter your meal choice (1-3): ");
+    scanf("%d", &mealChoice);
+    printf("Enter membership status (1 for Regular, 2 for Premium): ");
+    scanf("%d", &membership);
+    if (mealChoice == 1) {
+        price = 150;
+    } else if (mealChoice == 2) {
+        price = 200;
+    } else if (mealChoice == 3) {
+        price = 250;
+    } else {
+        printf("Invalid meal choice.\n");
+        return 0;
+    }
+    if (membership == 1) {
+        discount = 0;
+    } else if (membership == 2) {
+        discount = price * 0.10;
+    } else {
+        printf("Invalid membership status.\n");
+        return 0;
+    }
+
+    finalPrice = price - discount;
+
+    printf("\nFinal Price: %.2f pesos\n", finalPrice);
+
     return 0;
 }
-
-hihiramin ko lang, thankss
