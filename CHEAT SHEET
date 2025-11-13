@@ -8,7 +8,7 @@ print(value)
 # Empty line
 print(\n)
 
-#
+# HASHTAG
 " ' Francis ' "
 ' '' Francis " '
 value = "information"
@@ -120,7 +120,7 @@ value = input("information?")
 value = input("information.")
 
 # INPUT
-# Series of input syntaxes to change same value with different integer values
+# Adding together different input integer values
 value1 = 0
 value2 = int(input("information"))
 value1 = value1 + value2
@@ -227,18 +227,8 @@ else:
 # WHILE LOOPS
 # CONCATENATING STRINGS
 value1_1 = ""
-attempts = 0
-while True:
-    value1 = input("information")
     value1_1 += value1
-    attempts += 1
 
-    if value1  == "1":
-        correct = True
-        break
-    elif attempts == 3:
-        correct = False
-        break
 
 print(value1_1)
 
@@ -246,3 +236,6 @@ print(value1_1)
 # WITH CONDITIONS
 while = 1:
     print("information")
+
+# STRINGS
+# BUILDING STRINGS
