@@ -174,3 +174,11 @@ print(words)
 '''
 
 #ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+
+words = ""
+while True:
+    word = input("Please type in a word: ")
+    words += word + ", "
+    if words == 0:
+        words += "."
+print("words")
