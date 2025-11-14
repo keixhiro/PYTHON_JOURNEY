@@ -14,9 +14,13 @@ int main(){
            "failure is not fatal:\n"
            "It is the couage to continue that counts.\"\n"
            "- Winston Churchill\n");
+}
 
 
 
+
+
+int main(){
     printf("\n*****\n"
            "**|**\n"
            "*.|.*\n"
@@ -28,9 +32,13 @@ int main(){
            "<   >\n"
            " \\ /\n"
            "  v\n");
+}
 
 
 
+
+
+int main(){
     printf("Seatwork 1:\n");
 
     printf("\n");
@@ -86,9 +94,13 @@ int main(){
     fahrenheit = (celsius * 9 / 5) + 32;
 
     printf("%f°C = %f°F \n", celsius, fahrenheit);
+}
 
 
 
+
+
+int main(){
     char name[25];
     int id;
     float math, science, english;
@@ -120,9 +132,13 @@ int main(){
         printf("\nYou have passed!");
     else
         printf("\nYou have failed!");
+}
 
 
 
+
+
+int main(){
 	float monthlyincome, desiredloan;
     int age;
 
@@ -138,9 +154,13 @@ int main(){
     } else {
         printf("\nSorry, you do not meet the loan eligibility requirements.\n");
     }
+}
 
 
 
+
+
+int main(){
     int mealChoice, membership;
     float price = 0.0, discount = 0.0, finalPrice = 0.0;
 
@@ -163,67 +183,24 @@ int main(){
         return 0;
     }
     if (membership == 1) {
-        discount = 0;
+        discount = price;
     } else if (membership == 2) {
-        discount = price * 0.10;
+        discount = price * 0.90;
     } else {
         printf("Invalid membership status.\n");
-        return 0;
     }
-
-    finalPrice = price - discount;
-
-    printf("\nFinal Price: %.2f pesos\n", finalPrice);
-
-
-
-#include <stdio.h>
-
-int main() {
-    int num_tickets;
-    float price_tickets;
-    int age;
-    float ten_percent;
-    float ften_percent;
-    float no_discount;
-
-    printf("Enter number of tickets: ");
-    scanf("%d", &num_tickets);
-    printf("Enter price per ticket: ");
-    scanf("%f", &price_tickets);
-    printf("Enter customer age: ");
-    scanf("%f", &age);
-ten_percent = 0;
-ften_percent = 0;
-no_discount = 0;
-    if (age >= 18) {
-        ten_percent = ((price_tickets * num_tickets -(price_tickets * num_tickets * 0.10)));
-        printf("Discount applied: 10 %\n");
-        printf("The final total is:%.2f", ten_percent);
-    }
-    else if (age <= 60) {
-        ften_percent = ((price_tickets * num_tickets -(price_tickets * num_tickets * 0.15)));
-        printf("Discount applied: 15 %\n");
-        printf("The final total is: %.2f",  ften_percent);
-    }
-   else {
-        no_discount = price_tickets * num_tickets;
-        printf("Discount applied: No discount\n");
-        printf("The final total is: %.2f",  ften_percent);
-    }
-    return 0;
+    printf("Your final cost is %.2f Pesos", discount);
 }
 
 
-#include <stdio.h>
 
-int main();
+
+
+int main(){
     int num_tickets;
     float price_tickets;
     int age;
-    float ten_percent;
-    float ften_percent;
-    float no_discount;
+    float percent;
 
     printf("Enter number of tickets: ");
     scanf("%d", &num_tickets);
@@ -231,23 +208,19 @@ int main();
     scanf("%f", &price_tickets);
     printf("Enter customer age: ");
     scanf("%f", &age);
-    ten_percent = 0;
-    ften_percent = 0;
-    no_discount = 0;
-    if (age < 18) {
-        ten_percent = ((price_tickets * num_tickets -(price_tickets * num_tickets * 0.10)));
-        printf("Discount applied: 10 %\n");
-        printf("The final total is:%.2f", ten_percent);
+percent = 0;
+    if (age >= 18) {
+        percent = ((price_tickets * num_tickets - (price_tickets * num_tickets * 0.10)));
+        printf("Discount applied: 10%\n");
     }
-    else if (age >= 60) {
-        ften_percent = ((price_tickets * num_tickets -(price_tickets * num_tickets * 0.15)));
-        printf("Discount applied: 15 %\n");
-        printf("The final total is: %.2f",  ften_percent);
-    }
+    else if (age <= 60) {
+        percent = ((price_tickets * num_tickets - (price_tickets * num_tickets * 0.15)));
+        printf("Discount applied: 15%\n");
+        }
    else {
-        no_discount = price_tickets * num_tickets;
+        percent = price_tickets * num_tickets;
         printf("Discount applied: No discount\n");
-        printf("The final total is: %.2f",  ften_percent);
     }
+printf("The final total is: %.2f", percent);
     return 0;
 }
