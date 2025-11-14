@@ -177,6 +177,9 @@ int main(){
 
 
 
+#include <stdio.h>
+
+int main() {
     int num_tickets;
     float price_tickets;
     int age;
@@ -199,6 +202,44 @@ no_discount = 0;
         printf("The final total is:%.2f", ten_percent);
     }
     else if (age <= 60) {
+        ften_percent = ((price_tickets * num_tickets -(price_tickets * num_tickets * 0.15)));
+        printf("Discount applied: 15 %\n");
+        printf("The final total is: %.2f",  ften_percent);
+    }
+   else {
+        no_discount = price_tickets * num_tickets;
+        printf("Discount applied: No discount\n");
+        printf("The final total is: %.2f",  ften_percent);
+    }
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main();
+    int num_tickets;
+    float price_tickets;
+    int age;
+    float ten_percent;
+    float ften_percent;
+    float no_discount;
+
+    printf("Enter number of tickets: ");
+    scanf("%d", &num_tickets);
+    printf("Enter price per ticket: ");
+    scanf("%f", &price_tickets);
+    printf("Enter customer age: ");
+    scanf("%f", &age);
+    ten_percent = 0;
+    ften_percent = 0;
+    no_discount = 0;
+    if (age < 18) {
+        ten_percent = ((price_tickets * num_tickets -(price_tickets * num_tickets * 0.10)));
+        printf("Discount applied: 10 %\n");
+        printf("The final total is:%.2f", ten_percent);
+    }
+    else if (age >= 60) {
         ften_percent = ((price_tickets * num_tickets -(price_tickets * num_tickets * 0.15)));
         printf("Discount applied: 15 %\n");
         printf("The final total is: %.2f",  ften_percent);
