@@ -14,6 +14,7 @@ int main(){
            "failure is not fatal:\n"
            "It is the couage to continue that counts.\"\n"
            "- Winston Churchill\n");
+    return 0;
 }
 
 
@@ -32,6 +33,7 @@ int main(){
            "<   >\n"
            " \\ /\n"
            "  v\n");
+    return 0;
 }
 
 
@@ -94,6 +96,7 @@ int main(){
     fahrenheit = (celsius * 9 / 5) + 32;
 
     printf("%f°C = %f°F \n", celsius, fahrenheit);
+    return 0;
 }
 
 
@@ -132,6 +135,7 @@ int main(){
         printf("\nYou have passed!");
     else
         printf("\nYou have failed!");
+    return 0;
 }
 
 
@@ -153,7 +157,9 @@ int main(){
         printf("\nCongratulations! You are eligible for the loan.\n");
     } else {
         printf("\nSorry, you do not meet the loan eligibility requirements.\n");
+        return 0;
     }
+    return 0;
 }
 
 
@@ -188,8 +194,10 @@ int main(){
         discount = price * 0.90;
     } else {
         printf("Invalid membership status.\n");
+        return 0;
     }
     printf("Your final cost is %.2f Pesos", discount);
+    return 0;
 }
 
 
@@ -209,17 +217,16 @@ int main(){
     printf("Enter customer age: ");
     scanf("%f", &age);
 percent = 0;
-    if (age >= 18) {
+    if (age < 18) {
         percent = ((price_tickets * num_tickets - (price_tickets * num_tickets * 0.10)));
         printf("Discount applied: 10%\n");
-    }
-    else if (age <= 60) {
+    } else if (age >= 60) {
         percent = ((price_tickets * num_tickets - (price_tickets * num_tickets * 0.15)));
         printf("Discount applied: 15%\n");
-        }
-   else {
+    } else {
         percent = price_tickets * num_tickets;
         printf("Discount applied: No discount\n");
+        return 0;
     }
 printf("The final total is: %.2f", percent);
     return 0;
