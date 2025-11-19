@@ -237,6 +237,3 @@ value1_1 += ", information?"
 while = 1:
     print("information")
 
-# STRINGS
-# BUILDING STRINGS
-
