@@ -1,57 +1,4 @@
 '''
-total_points = 0
-gameover ="GAMEOVER."
-question_1 = int(input("What is a random number that is often used to count the number of limbs in some mammals? "))
-answer_1 = question_1 < 10
-if answer_1:
-    print("Correct! You have earned one point.")
-    points = 1
-    total_points += points
-else:
-    print("Aww, unfortunately, your answer is incorrect, you have the lost the current the round, better luck next time!")
-    print(gameover)
-question_2 = input("Now, for the second round, the question is: What stands still but can't sit still 45 degrees on its own? ")
-answer_2 = {"HUMANS",
-            "Humans",
-            "humans",
-            "HUMAN",
-            "Human",
-            "human",}
-if question_2 in answer_2:
-    print("Bravo! You have earned another point!")
-    total_points += points
-'''
-
-#ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-
-'''
-number_1 = 1
-number_2 = 100
-compare_number_3 = int(input("Give me a number for the deal and we can go and check whether it will be possible to reach a consensus for today's dealings. "))
-if compare_number_3 > number_1 and compare_number_3 < number_2:
-    print("Hmm, I see, I think we can proceed with the deal then.")
-elif compare_number_3 > number_2:
-    print("Hmm, are you sure about that? You'll be the one at lost here.")
-else:
-    print("GO TO HELL!")
-
-OR YOU COULD DO IT LIKE THIS
-
-number_1 = 10
-number_2 = 500
-number_4 = 100
-compare_number_3 = int(input("Give me a number for the deal and we can go and check whether it will be possible to reach a consensus for today's dealings. "))
-if not (compare_number_3 > number_1 and compare_number_3 < number_2):
-    print("Hmm, I don't think it will be possible for us to strike up a deal.")
-elif compare_number_3 < number_4:
-    print("Erm, I think it's a bit too below my projected budget, maybe we can come to a better compromise?")
-else:
-    print("Sure! How would you like to proceed further?")
-'''
-
-#ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-
-'''
 number_1 = int(input("Please type in your number. "))
 if number_1 > 0 and number_1 <= 100:
     if number_1 >= 50:
@@ -174,11 +121,3 @@ print(words)
 '''
 
 #ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-
-words = ""
-while True:
-    word = input("Please type in a word: ")
-    words += word + ", "
-    if words == 0:
-        words += "."
-print("words")
