@@ -227,10 +227,10 @@ else:
 # WHILE LOOPS
 # CONCATENATING STRINGS
 value1_1 = ""
-    value1_1 += value1
-
-
-print(value1_1)
+value1_1 += value1
+    #OR
+value1_1 = "information"
+value1_1 += ", information?"
 
 # WHILE LOOPS
 # WITH CONDITIONS
