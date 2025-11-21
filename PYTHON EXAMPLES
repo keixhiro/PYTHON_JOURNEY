@@ -1,17 +1,4 @@
 '''
-number_1 = int(input("Please type in your number. "))
-if number_1 > 0 and number_1 <= 100:
-    if number_1 >= 50:
-        print("You have passed!")
-    elif number_1 < 50:
-        print("You have failed.")
-else:
-    print("That's impossible!")
-'''
-
-#ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-
-'''
 print("You want to find out the orders in the letters? Then use the program below.")
 print("Please type in the letters one by one.")
 letter_1 = input("Please type in a letter. ")
