@@ -58,10 +58,10 @@ else:
                                                             # INFORMATIONS ARCHIVE VIA SEARCHING
 
 '''
-number_of_entries_name = 0
-number_of_entries_password = 0
-output_names = {"FRANCIS"}
-output_passwords = {"CISCISCIS"}
+num_of_entN = 0
+num_of_entP = 0
+output_N = {"FRANCIS"}
+output_P = {"CISCISCIS"}
 signal_for_new_name = 0
 print("WELCOME TO THE ARCHIVE OF THE ARTIINTEL CLOUD SILO!")
 
@@ -70,28 +70,28 @@ while True:
     
     if input_names in output_names:
         input_passwords = input("WHAT IS YOUR PASSWORD? ")
+        
         if input_passwords in output_passwords:
             print(f"Welcome Mx. {input_names}! What would you like to access? ")
-            signal_for_new_name += 1
             break
-        elif number_of_entries_password <= 1:
+        elif num_of_entP <= 1:
             print("Err! Please try again.")
-            number_of_entries_password += 1
-        elif number_of_entries_password > 1:
-            print("You have provided the wrong password consecutively in the span of a few minutes, please try again later.")
-            number_of_entries_password += 1
+            num_of_entP += 1
+        elif num_of_entP > 1:
+            print("You have provided the wrong password consecutively in the span of a few minutes, please try again later.")P
             break
-    elif number_of_entries_name <= 1:
+    
+    elif num_of_entN <= 1:
         print("Err! Please try again.")
-        number_of_entries_name += 1
-    elif number_of_entries_name > 1:
+        num_of_entN += 1
+    elif num_of_entN > 1:
         print("You have provided the wrong username consecutively in the span of a few minutes, please try again later.")
         break
 
 if signal_for_new_name > 0:
-    # NAKO WALA PA NGA PALA AKONG KNOWLEDGE WHEN IT COMES TO ADDING IN LISTS, STRINGS LANG HAHAHA
-
+# NAKO WALA PA NGA PALA AKONG KNOWLEDGE WHEN IT COMES TO ADDING IN LISTS, STRINGS LANG HAHAHA
 '''
+
                                                             # STATUS: DISCONTINUED
                                                             # GRADE CALCULATOR
 
