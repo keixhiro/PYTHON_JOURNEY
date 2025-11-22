@@ -39,63 +39,6 @@ if answer_3 in insig_3:
 #ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 
 '''
-print('"Tax Calculator"')
-tax_input = 10
-tax_rate_1 = 5
-tax_condition_1 = 1
-tax_condition_2 = 1
-tax_condition_3 = 1
-tax_condition_4 = 1
-tax_input = float(input("If you want to calculate how much tax ia added after the price of your costs, please use this function. Type it here. "))
-if 1 <= tax_input < 1000000:
-    tax_rate_1 = 5
-    tax_calculation_part_1 = float(tax_input) * float(tax_rate_1) / 100
-    tax_calculation_part_2 = (float(tax_input) + tax_calculation_part_1)
-    print(f"The amount of tax that will be added accordingly to your spent currency is {tax_calculation_part_1}.")
-    print(f"The total amount that you will pay is {tax_calculation_part_2}.")
-if 1000000 <= tax_input < 5000000:
-    tax_rate_1 = 10
-    tax_calculation_part_1 = float(tax_input) * float(tax_rate_1) / 100
-    tax_calculation_part_2 = (float(tax_input) + tax_calculation_part_1)
-    print(f"The amount of tax that will be added accordingly to your spent currency is {tax_calculation_part_1}.")
-    print(f"The total amount that you will pay is {tax_calculation_part_2}.")
-if 5000000 <= tax_input <20000000:
-    tax_rate_1 = 20
-    tax_calculation_part_1 = float(tax_input) * float(tax_rate_1) / 100
-    tax_calculation_part_2 = (float(tax_input) + tax_calculation_part_1)
-    print(f"The amount of tax that will be added accordingly to your spent currency is {tax_calculation_part_1}.")
-    print(f"The total amount that you will pay is {tax_calculation_part_2}.")
-if 20000000 <= tax_input:
-    tax_rate_1 = 30
-    tax_calculation_part_1 = float(tax_input) * float(tax_rate_1) / 100
-    tax_calculation_part_2 = (float(tax_input) + tax_calculation_part_1)
-    print(f"The amount of tax that will be added accordingly to your spent currency is {tax_calculation_part_1}.")
-    print(f"The total amount that you will pay is {tax_calculation_part_2}.")
-'''
-
-#ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-
-'''
-math_result = 0
-while True:
-    math_equation = float(input("Please put a random number for me to multiply. If it is an even number it shall be divided by 2, if it is an odd number, by 3, type -1 to stop this program from running. "))
-    if math_equation == -1:
-        break
-    elif math_equation % 2 == 0:
-        math_result = math_equation / 2
-        print(f"The number you provided is now {math_result}.")
-    elif math_equation < 1000:
-        math_result = math_equation / 3
-        print(f"The number you provided is now {math_result}.")
-    elif math_equation > 1000:
-        math_result = math_equation / 30
-        print(f"The number you provided is now {math_result}.")
-print("Thank you for using the program!")
-'''
-
-#ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-
-'''
 words = ""
 while True:
     word = input("Please write words that you want to compose together in a sentence. ")
