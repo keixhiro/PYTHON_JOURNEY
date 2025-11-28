@@ -53,6 +53,7 @@ print(words)
 #ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 
 
-answer = 1
+answer = 0
+answer = int(input("Please input a ")
 while answer < limits:
         calcu_1 = 
