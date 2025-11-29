@@ -54,6 +54,7 @@ print(words)
 
 
 answer = 0
-answer = int(input("Please input a ")
+answer = int(input("Please input a number to be added like a fibonacci.")
+limits = int(input("Please input a number limit."))
 while answer < limits:
         calcu_1 = 
