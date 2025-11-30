@@ -51,10 +51,13 @@ print(words)
 '''
 
 #ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-
-
-answer = 0
-answer = int(input("Please input a number to be added like a fibonacci.")
-limits = int(input("Please input a number limit."))
-while answer < limits:
-        calcu_1 = 
+calcu_1 = 1
+calcu_2 = calcu_1
+calcu_3 = 1
+limits = int(input("Please input a limit."))
+print(calcu_1)
+while calcu_3 < limits:
+    calcu_2 += calcu_1
+    calcu_3 += calcu_2
+    print(calcu_3)
+print(calcu_3)
