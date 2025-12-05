@@ -216,7 +216,7 @@ int main(){
     scanf("%f", &price_tickets);
     printf("Enter customer age: ");
     scanf("%f", &age);
-percent = 0;
+    percent = 0;
     if (age < 18) {
         percent = ((price_tickets * num_tickets - (price_tickets * num_tickets * 0.10)));
         printf("Discount applied: 10%\n");
@@ -228,6 +228,33 @@ percent = 0;
         printf("Discount applied: No discount\n");
         return 0;
     }
-printf("The final total is: %.2f", percent);
+    printf("The final total is: %.2f", percent);
     return 0;
+}
+
+
+
+
+
+int main(void) {
+
+    for(int i=0; i<10;++i);
+    printf("%d\n", i);
+}
+
+
+
+
+
+int main(void) {
+  
+  int num;
+  
+  do{
+      printf("Please enter an even number:");
+      scanf("%d", &num);
+  } while (num % 2 == 0);
+  
+  printf("You entered an odd number, %d.", num);
+  return 0;
 }
