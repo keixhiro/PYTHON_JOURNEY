@@ -52,11 +52,15 @@ print(words)
 
 #ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 calcu_1 = 1
-calcu_2 = calcu_1
+calcu_2 = 1
 calcu_3 = 1
+state1 = "1"
+state2 = ""
 limits = int(input("Please input a limit."))
 print(calcu_1)
 while calcu_3 < limits:
     calcu_2 += calcu_1
     calcu_3 += calcu_2
-    print(calcu_3)
+    state1 += " +" + str(calcu_2)
+state2 += state1 + " =", + (calcu_3) hays
+print(state2)
