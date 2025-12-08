@@ -267,10 +267,24 @@ int main(void) {
 int main(void) {
     int initia;
     
-    printf("Please initiate this code by typing out how many second you want it to count down from.");
+    printf("Please initiate this code by typing out how many seconds you want it to count down from.");
     scanf("%d", &initia);
-for(int initia; initia < 0; --initia);
-    printf("%d\n", initia);
-
+for(initia; initia >= 0; initia--) {
+    if (initia <= 0) {
+    continue;
+    }
+    
+    printf("%d seconds\n", initia);
+}
     return 0;
+}
+HOW DO I MAKE THIS PRINT ZERO SECONDS
+
+int main(void) {
+    int num;
+
+    do {
+        printf("Try to guess the number! What is the number? ");
+        scanf("%d", &guess);
+    } while {}
 }
