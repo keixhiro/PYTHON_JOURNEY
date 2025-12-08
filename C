@@ -281,10 +281,18 @@ for(initia; initia >= 0; initia--) {
 HOW DO I MAKE THIS PRINT ZERO SECONDS
 
 int main(void) {
-    int num;
+    int guess;
 
     do {
         printf("Try to guess the number! What is the number? ");
         scanf("%d", &guess);
-    } while {}
+        if (guess < 50) {
+        printf("The number is less than the secret number TuT\n");
+        }
+        if (guess > 50) {
+        printf("The number is more than the secret number~\n");
+        } } while (guess != 50);
+printf("Congratulations, you made hula the number!");
+    return 0;
 }
+
