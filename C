@@ -301,7 +301,7 @@ printf("Congratulations, you made hula the number!");
 }
 
 int main(void) {
-for(int a, 
+for(int a,
 
 
 
