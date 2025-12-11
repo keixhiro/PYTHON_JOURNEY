@@ -313,9 +313,9 @@ int main(void) {
  int main(void) {
     char choice1;
 
-    do {
-        printf("Welcome to the menu! Please choose what you want to do. (Type the number of your choosing)\n 1. Play game.\n 2. Load game. \n 3. Exit game. \n");
-        scanf("%d", &choice1);
+        do {
+                printf("Welcome to the menu! Please choose what you want to do. (Type the number of your choosing)\n 1. Play game.\n 2. Load game. \n 3. Exit game. \n");
+                        scanf("%d", &choice1);
     }
     while (choice1 == 1 || choice1 == 2);
     {
