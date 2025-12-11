@@ -368,10 +368,12 @@ int main(void) {
     printf("Up to what number should the table go? ");
     scanf("%d", &degree);
 
-    if (degree < 0) {
+
+    if (degree <= 0) {
         printf("Please enter a valid positive integer for the degree.");
         return 0;
     }
+
     for(degree_start; degree_start >= 0; degree_start++) {
         if (degree_start > degree) {
             continue;
