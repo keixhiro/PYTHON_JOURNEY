@@ -280,8 +280,7 @@ int main(void) {
     printf("1 second\n");
     printf("0 seconds");
     return 0;
-
-    }
+}
 
 
 
@@ -303,7 +302,6 @@ int main(void) {
     
     printf("Congratulations, you made hula the number!");
     return 0;
-
 }
 
 
@@ -363,12 +361,17 @@ int main(void) {
     int degree;
     int degree_start = 1;
     int compu_1;
+    int checker_1 =
 
     printf("Enter a number to generate its multiplication table: ");
     scanf("%d", &multi);
     printf("Up to what number should the table go? ");
     scanf("%d", &degree);
 
+    if (degree < 0) {
+        printf("Please enter a valid positive integer for the degree.");
+        return 0;
+    }
     for(degree_start; degree_start >= 0; degree_start++) {
         if (degree_start > degree) {
             continue;
@@ -380,5 +383,4 @@ int main(void) {
     }
 
     return 0;
-
 }
