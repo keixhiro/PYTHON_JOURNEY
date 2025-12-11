@@ -300,5 +300,57 @@ printf("Congratulations, you made hula the number!");
     return 0;
 }
 
+
+
+
+
+#include <stdio.h>
+ 
+ int main(void) {
+    char choice1;
+
+    do {
+        printf("Welcome to the menu! Please choose what you want to do. (Type the number of your choosing)\n 1. Play game.\n 2. Load game. \n 3. Exit game. \n");
+        scanf("%d", &choice1);
+    }
+    while (choice1 == 1 || choice1 == 2);
+    {
+        if
+        {
+            switch (choice2):
+            {
+                case (1):
+                    printf("1. Play game?\n");
+                    setvalue1 = 1;
+                    break;
+                case (2):
+                    printf("2. Load game.\n");
+                    setvalue1 = 1;
+                    break;
+            }
+        
+        if
+            switch (choice3):
+            {
+                case (1):
+                    printf("1. Play game?\n");
+                    setvalue1 = 1;
+                    break;
+                case (2):
+                    printf("2. Load game.\n");
+                    setvalue1 = 1;
+                    break;
+            }
+        default:
+            printf("Invalid choice. Please try again.\n");
+        }
+    }
+    printf("Bleh.")
+}
+
+
+
+
+
 int main(void) {
 for(int a,
