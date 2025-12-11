@@ -353,4 +353,27 @@ printf("Congratulations, you made hula the number!");
 
 
 int main(void) {
-for(int a,
+    int multi;
+    int degree;
+    int degree_start = 1;
+    int compu_1;
+
+    printf("Enter a number to generate its multiplication table: ");
+    scanf("%d", &multi);
+    printf("Up to what number should the table go? ");
+    scanf("%d", &degree);
+
+
+    for(degree_start; degree_start >= 0; degree_start++)
+    {
+    if (degree_start > degree)
+    {
+    continue;
+    }
+        compu_1 = (multi * degree_start);
+        printf("%d", multi);
+        printf(" x %d", degree_start);
+        printf(" = %d\n", compu_1);
+}
+    return 0;
+}
