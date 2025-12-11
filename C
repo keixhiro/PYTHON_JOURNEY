@@ -163,7 +163,7 @@ int main(){
 }
 
 
-
+AAYUSIN KO PA TO !!!
 
 
 int main(){
@@ -217,6 +217,7 @@ int main(){
     printf("Enter customer age: ");
     scanf("%f", &age);
     percent = 0;
+
     if (age < 18) {
         percent = ((price_tickets * num_tickets - (price_tickets * num_tickets * 0.10)));
         printf("Discount applied: 10%\n");
@@ -228,6 +229,7 @@ int main(){
         printf("Discount applied: No discount\n");
         return 0;
     }
+
     printf("The final total is: %.2f", percent);
     return 0;
 }
@@ -237,7 +239,6 @@ int main(){
 
 
 int main(void) {
-
     for(int i=0; i<10;++i);
     printf("%d\n", i);
     return 0;
@@ -248,16 +249,15 @@ int main(void) {
 
 
 int main(void) {
-  
-  int num;
-  
-  do{
-      printf("Please enter an even number:");
-      scanf("%d", &num);
-  } while (num % 2 == 0);
-  
-  printf("You entered an odd number, %d.", num);
-  return 0;
+    int num;
+
+    do {
+        printf("Please enter an even number:");
+        scanf("%d", &num);
+    } while (num % 2 == 0);
+
+    printf("You entered an odd number, %d.", num);
+    return 0;
 }
 
 
@@ -266,19 +266,22 @@ int main(void) {
 
 int main(void) {
     int initial;
-    
+
     printf("Please start this code by initiating how many seconds you want it to count down from.");
     scanf("%d", &initial);
-for(initial; initial >= 0; initial--) {
-    if (initial <= 0) {
-    continue;
+
+    for(initial; initial >= 0; initial--) {
+        if (initial < 2) {
+            continue;
+        }
+    printf("%d seconds\n", initial);
     }
     
-    printf("%d seconds\n", initial);
-}
+    printf("1 second\n");
+    printf("0 seconds");
     return 0;
-}
-HOW DO I MAKE THIS PRINT ZERO SECONDS
+
+    }
 
 
 
@@ -295,9 +298,12 @@ int main(void) {
         }
         if (guess > 50) {
         printf("The number is more than the secret number~\n");
-        } } while (guess != 50);
-printf("Congratulations, you made hula the number!");
+        } 
+        } while (guess != 50);
+    
+    printf("Congratulations, you made hula the number!");
     return 0;
+
 }
 
 
@@ -363,17 +369,16 @@ int main(void) {
     printf("Up to what number should the table go? ");
     scanf("%d", &degree);
 
-
-    for(degree_start; degree_start >= 0; degree_start++)
-    {
-    if (degree_start > degree)
-    {
-    continue;
-    }
+    for(degree_start; degree_start >= 0; degree_start++) {
+        if (degree_start > degree) {
+            continue;
+        }
         compu_1 = (multi * degree_start);
         printf("%d", multi);
         printf(" x %d", degree_start);
         printf(" = %d\n", compu_1);
-}
+    }
+
     return 0;
+
 }
