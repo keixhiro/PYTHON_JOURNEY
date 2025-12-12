@@ -356,12 +356,13 @@ int main(void) {
 
 
 
+#include <stdio.h>
+ 
 int main(void) {
     int multi;
     int degree;
     int degree_start = 1;
     int compu_1;
-    int checker_1 =
 
     printf("Enter a number to generate its multiplication table: ");
     scanf("%d", &multi);
