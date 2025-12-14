@@ -316,33 +316,19 @@ int main(void) {
                         scanf("%d", &choice1);
     } while (choice1 == 1 || choice1 == 2);
     {
-        if choice1 == 1 {
-            switch (choice2):
-            {
-                case (1):
-                    printf("1. Play game?\n");
-                    setvalue1 = 1;
-                    break;
-                case (2):
-                    printf("2. Load game.\n");
-                    setvalue1 = 1;
-                    break;
-            }
-        else if choice1 == 2 {
-            switch (choice3):
-            {
-                case (1):
-                    printf("1. Play game?\n");
-                    setvalue1 = 1;
-                    break;
-                case (2):
-                    printf("2. Load game.\n");
-                    setvalue1 = 1;
-                    break;
-            }
+        switch (choice1):
+        {
+            case (1):
+                printf("1. Play game?\n");
+                setvalue1 = 1;
+                break;
+            case (2):
+                printf("2. Load game.\n");
+                setvalue1 = 1;
+                break;
         }
     }
-    printf("Bleh.")
+    printf("Bleh.");
 }
 
 
