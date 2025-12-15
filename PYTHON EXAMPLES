@@ -1,3 +1,4 @@
+
 '''
 print("You want to find out the orders in the letters? Then use the program below.")
 print("Please type in the letters one by one.")
@@ -39,29 +40,20 @@ if answer_3 in insig_3:
 #ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 
 '''
-words = ""
-while True:
-    word = input("Please write words that you want to compose together in a sentence. ")
-    if word in words:
-        break
-    words += word + " "
-    # When it's like this, you can't input strings that start with anything that's not supposed to have any space before it, such as commas
-words += "."
-print(words)
+calcu_1 = 1
+calcu_2 = 1
+calcu_3 = 0
+state_1 = "0"
+const_1 = ""
+limits = int(input("Please input a limit. "))
+
+while calcu_2 < limits:
+    state_1 += " + " + str(calcu_1)
+    calcu_1 += 1
+    calcu_3 = calcu_2
+    calcu_2 += calcu_1
+print(f"{state_1} = {calcu_3}")
 '''
 
 #ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-calcu_1 = 1
-calcu_2 = 1
-calcu_3 = 1
-state1 = "1"
-state2 = ""
-limits = int(input("Please input a limit. "))
 
-while calcu_3 < limits:
-    calcu_2 += calcu_1
-    calcu_3 += calcu_2
-    state1 += str(calcu_2) + " + " pano na haha
-
-print(calcu_1)
-print(f"{state1} = {calcu_3}.")
