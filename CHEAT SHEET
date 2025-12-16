@@ -56,8 +56,12 @@ from math import sqrt
 print(sqrt(9))
 
 # IDENTIFIERS
-# Length of word
+# Length of string
 print(len("information"))
+
+# ORDER OF OPERATIONS AND IDENTIFIERS
+# Length and index pf string
+print(" +" len("information"))
 
 # COMPARISON OPERATORS
 ("
@@ -226,13 +230,18 @@ else:
 
 # WHILE LOOPS
 # CONCATENATING STRINGS
-value1_1 = ""
-value1_1 += value1
+value3 = ""
+value3 += value1
     #OR
-value1_1 = "information"
-value1_1 += ", information?"
+value3 = "information"
+value3 += ", information?"
 
 # WHILE LOOPS
 # WITH CONDITIONS
 while = 1:
     print("information")
+
+# STRING OPERATIONS
+value1 = "infor"
+value2 = "mation"
+value3 = value1 + value2
