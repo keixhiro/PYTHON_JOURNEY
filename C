@@ -267,13 +267,10 @@ int main(void) {
 int main(void) {
     int initial;
 
-    printf("Please start this code by initiating how many seconds you want it to count down from.");
+    printf("Please start this code by initiating how many seconds you want it to count down from: ");
     scanf("%d", &initial);
 
-    for(initial; initial >= 0; initial--) {
-        if (initial < 2) {
-            continue;
-        }
+    for(initial; initial >= 2; initial--) {
     printf("%d seconds\n", initial);
     }
     
@@ -288,7 +285,9 @@ int main(void) {
 
 int main(void) {
     int guess;
-
+    int scrt_num;
+printf("What is the secret number? ")
+scanf("%d, ")
     do {
         printf("Try to guess the number! What is the number? ");
         scanf("%d", &guess);
@@ -308,7 +307,7 @@ int main(void) {
 
 
 
- int main(void) {
+int main(void) {
     char choice1;
 
         do {
@@ -335,8 +334,6 @@ int main(void) {
 
 
 
-#include <stdio.h>
- 
 int main(void) {
     int multi;
     int degree;
