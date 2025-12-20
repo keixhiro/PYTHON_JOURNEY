@@ -56,13 +56,3 @@ print(f"{state_1} = {calcu_3}")
 '''
 
 #ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-value1 len t1
-value2 len t2
-if value1 < value2
-    statem1 = f"{t1} is the longer word"
-    value1_1 = 0
-elif value1 > value2
-    statem1 = f"{t2} is the longer word"
-    value1_1 = 1
-else
-    value 1_1 = 2
