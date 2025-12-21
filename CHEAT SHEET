@@ -60,7 +60,7 @@ print(sqrt(9))
 print(len("information"))
 
 # ORDER OF OPERATIONS AND IDENTIFIERS
-# Length and index pf string
+# Length and index of string
 print(" +" len("information"))
 
 # COMPARISON OPERATORS
