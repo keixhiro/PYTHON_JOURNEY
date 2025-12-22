@@ -308,26 +308,28 @@ scanf("%d, ")
 
 
 int main(void) {
-    char choice1;
+    int choice1;
 
-        do {
-                printf("Welcome to the menu! Please choose what you want to do. (Type the number of your choosing)\n 1. Play game.\n 2. Load game. \n 3. Exit game. \n");
-                        scanf("%d", &choice1);
-    } while (choice1 == 1 || choice1 == 2);
-    {
-        switch (choice1):
+    do {
+        printf("Welcome to the menu! Please choose what you want to do. (Type the number of your choosing)\n 1. Play game.\n 2. Load game. \n 3. Exit game. \n");
+        printf("Your choice? ");
+        scanf("%d", &choice1);
+        switch (choice1)
         {
-            case (1):
-                printf("1. Play game?\n");
-                setvalue1 = 1;
-                break;
-            case (2):
-                printf("2. Load game.\n");
-                setvalue1 = 1;
-                break;
-        }
-    }
-    printf("Bleh.");
+        case (1):
+            printf(" 1. Play game?");
+            break;
+        case (2):
+            printf(" 2. Load game.");
+            break;
+        case (3):
+            printf(" 3. Exit game? \n Exiting...");
+            break;
+        default:
+        printf("Invalid choice, please try again.");
+    } 
+    } while (choice1 != 3);
+    return 0;
 }
 
 
@@ -363,3 +365,50 @@ int main(void) {
 
     return 0;
 }
+
+
+
+
+
+int main(void) {
+    int conver;
+    int temp;
+    
+    printf("Temperature Converter: \n 1. Celsius to Fahrenheit \n 2. Fahrenheit to Celsius \n")
+    printf("Choose the type of conversion: ")
+    scanf("%d", conver);
+    switch (conver)
+    {
+    case (1):
+        conver1 = (1.8 * temp) + 32)
+    case (2):
+        conver1 = 0.56 * (temp − 32)
+    }
+    printf("How many temperatures do you wish to convert? ")
+    scanf("%d", numtemp)
+    printf("Enter them: \n")
+    
+}
+#include <stdio.h>
+EXAMPLE
+INPUT
+Temperature Converter
+1. Celsius to Fahrenheit
+2. Fahrenheit to Celsius
+Choose conversion (1 or 2): 1
+How many temperatures do you want to convert? 3
+Enter 3 temperatures:
+32
+27
+38
+OUTPUT
+Converted Temperatures:
+32.00°C = 89.60°F
+
+Republic of the Philippines
+POLYTECHNIC UNIVERSITY OF THE PHILIPPINES
+College of Computer and Information Sciences
+Sta. Mesa, Manila
+
+27.00°C = 80.60°F
+38.00°C = 100.40°F

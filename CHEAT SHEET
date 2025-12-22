@@ -11,7 +11,7 @@ print(\n)
 # HASHTAG
 " ' Francis ' "
 ' '' Francis " '
-value = "information"
+value1 = "information"
 
 # STR
 # String data type
@@ -62,6 +62,12 @@ print(len("information"))
 # ORDER OF OPERATIONS AND IDENTIFIERS
 # Length and index of string
 print(" +" len("information"))
+
+# PRINTING
+# Specific characters
+value1 = "information"
+print(value1[0])
+print(value1[1])
 
 # COMPARISON OPERATORS
 ("
@@ -119,9 +125,9 @@ print("If the information is ", value3, "then", value3, "is the information.")
 
 # INPUT
 # Series of input syntaxes to change same value with different string values
-value = input("information")
-value = input("information?")
-value = input("information.")
+value1 = input("information")
+value1 = input("information?")
+value1 = input("information.")
 
 # INPUT
 # Adding together different input integer values
