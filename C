@@ -389,26 +389,42 @@ int main(void) {
     printf("Enter them: \n")
     
 }
-#include <stdio.h>
-EXAMPLE
-INPUT
-Temperature Converter
-1. Celsius to Fahrenheit
-2. Fahrenheit to Celsius
-Choose conversion (1 or 2): 1
-How many temperatures do you want to convert? 3
-Enter 3 temperatures:
-32
-27
-38
-OUTPUT
-Converted Temperatures:
-32.00°C = 89.60°F
 
-Republic of the Philippines
-POLYTECHNIC UNIVERSITY OF THE PHILIPPINES
-College of Computer and Information Sciences
-Sta. Mesa, Manila
+int main(void) {
+    int conver, numtemp, i;
+    float temp[100], converted[100];
 
-27.00°C = 80.60°F
-38.00°C = 100.40°F
+    printf("Temperature Converter:\n");
+    printf("1. Celsius to Fahrenheit\n");
+    printf("2. Fahrenheit to Celsius\n");
+    printf("Choose the type of conversion: ");
+    scanf("%d", &conver);
+    printf("How many temperatures do you wish to convert? ");
+    scanf("%d", &numtemp);
+
+    printf("Enter %d temperatures:\n", numtemp);
+    for (i = 0; i < numtemp; i++) {
+        scanf("%f", &temp[i]);
+    }
+
+    for (i = 0; i < numtemp; i++) {
+        if (conver == 1) {
+            converted[i] = (1.8 * temp[i]) + 32;
+        } 
+        else if (conver == 2) {
+            converted[i] = 0.56 * (temp[i] - 32);
+        }
+    }
+
+    printf("\nConverted Temperatures:\n");
+    for (i = 0; i < numtemp; i++) {
+        if (conver == 1) {
+            printf("%.2f°C = %.2f°F\n", temp[i], converted[i]);
+        } 
+        else if (conver == 2) {
+            printf("%.2f°F = %.2f°C\n", temp[i], converted[i]);
+        }
+    }
+
+    return 0;
+}
