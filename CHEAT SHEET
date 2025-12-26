@@ -60,14 +60,17 @@ print(sqrt(9))
 print(len("information"))
 
 # ORDER OF OPERATIONS AND IDENTIFIERS
-# Length and index of string
-print(" +" len("information"))
+# Length of string
+print(" +" * len("information"))
 
 # PRINTING
 # Specific characters
 value1 = "information"
 print(value1[0])
 print(value1[1])
+    # OR
+print(value1[-11])
+print(value1[-1])
 
 # COMPARISON OPERATORS
 ("
