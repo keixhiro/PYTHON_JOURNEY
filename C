@@ -428,4 +428,4 @@ int main(void) {
 
     return 0;
 }
-mamaya ha, aralin mo na to, please lang
+
