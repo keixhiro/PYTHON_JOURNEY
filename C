@@ -409,10 +409,4 @@ int main(void) {
     }
 
     return 0;
-<<<<<<< HEAD
 }
-=======
-}
-
-
->>>>>>> bc8149558b086e6c44c14a70bbf944bb3d74de8a
