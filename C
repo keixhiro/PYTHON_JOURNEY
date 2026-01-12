@@ -12,7 +12,7 @@ int main(){
 
     printf("\n\"Success is not final,\n"
            "failure is not fatal:\n"
-           "It is the couage to continue that counts.\"\n"
+           "It is the courage to continue that counts.\"\n"
            "- Winston Churchill\n");
     return 0;
 }
