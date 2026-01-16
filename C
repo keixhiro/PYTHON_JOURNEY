@@ -12,7 +12,7 @@ int main(){
 
     printf("\n\"Success is not final,\n"
            "failure is not fatal:\n"
-           "It is the couage to continue that counts.\"\n"
+           "It is the courage to continue that counts.\"\n"
            "- Winston Churchill\n");
     return 0;
 }
@@ -240,7 +240,7 @@ int main(){
 
 int main(void) {
     int i;
-    for(i=0; i<10;++i) {
+    for(i=0; i<=10;++i) {
         printf("%d\n", i);
     }
     return 0;
@@ -356,7 +356,10 @@ int main(void) {
     }
 
     for(degree_start; degree_start <= degree; degree_start++) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 25eb9c39365c18e0227b4d875922db778d4ff41e
         compu_1 = (multi * degree_start);
         printf("%d", multi);
         printf(" x %d", degree_start);
