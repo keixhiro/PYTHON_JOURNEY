@@ -355,10 +355,8 @@ int main(void) {
         return 0;
     }
 
-    for(degree_start; degree_start >= 0; degree_start++) {
-        if (degree_start > degree) {
-            continue;
-        }
+    for(degree_start; degree_start <= degree; degree_start++) {
+
         compu_1 = (multi * degree_start);
         printf("%d", multi);
         printf(" x %d", degree_start);
