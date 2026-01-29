@@ -1,12 +1,62 @@
-#PRINTING
-#Basic printing
+# PRINTING
+# Basic printing
 print("information")
 print('information')
 print(value)
 
-#PRINTING
+# PRINTING
 # Empty line
 print(\n)
+
+# PRINTING
+# Strings with variables
+value1 = "information"
+print(value1 + " information")
+ = information information
+
+# PRINTING
+# F-strings with variables
+print(f"The information is {value1}")
+
+# PRINTING
+# Specific characters
+value1 = "information"
+print(value1[0]) = first char
+print(value1[1]) = second char
+
+# PRINTING
+# Specific characters
+print(value1[-2]) = first char
+print(value1[-1]) = second char
+
+# MATHEMATICS
+# ORDER OF OPERATIONS
+print(1+1)
+print(1-1)
+print(1*1)
+print(1**1)
+
+# ORDER OF OPERATIONS and PRINTING
+# Basic mathematics
+value1 = 1
+value2 = 2
+print(value1 + 1)
+    # OR
+print(value1 + value2)
+value3 = value1 + value2
+
+# ORDER OF OPERATIONS and PRINTING
+# Basic mathematics with string value and integer value
+value1 = "1"
+print(int(value1) + 1)
+
+# ORDER OF OPERATIONS and PRINTING
+# String and integer value
+value1 = 1
+value2 = 2
+value3 = value1 + value2
+print("The information is " + str(value3))
+print("If the information is ", value3, "then", value3, "is the information.")
 
 # HASHTAG
 " ' Francis ' "
@@ -30,13 +80,6 @@ value1 = 10
 # SYNTAXES / FUNCTIONS
 # Remove natural endline
 end = ""
-
-# ORDER OF OPERATIONS
-# Printing basic mathematics
-print(1+1)
-print(1-1)
-print(1*1)
-print(1**1)
 
 # ORDER OF OPERATIONS
 # Floating value
@@ -63,15 +106,6 @@ print(len("information"))
 # Length of string
 print(" +" * len("information"))
 
-# PRINTING
-# Specific characters
-value1 = "information"
-print(value1[0])
-print(value1[1])
-    # OR
-print(value1[-11])
-print(value1[-1])
-
 # COMPARISON OPERATORS
 ("
 
@@ -83,48 +117,6 @@ print(value1[-1])
   =<
 
   ")
-
-
-
-# PRINTING
-# Strings with variables
-print("information, " + value + " information")
-print(value + " information")
-    # OR
-value1 = "information"
-value2 = "information"
-value3 = value1 + " " + value2
-print(value)
-
-# PRINTING
-# F-strings with variables
-print(f"The information is {value1}")
-
-
-
-# ORDER OF OPERATIONS and PRINTING
-# Basic mathematics
-value1 = 1
-value2 = 2
-print(value1 + 1)
-    # OR
-print(value1 + value2)
-value3 = value1 + value2
-
-# ORDER OF OPERATIONS and PRINTING
-# Basic mathematics with string value and integer value
-value1 = "1"
-print(int(value1) + 1)
-
-# ORDER OF OPERATIONS and PRINTING
-# String and integer value
-value1 = 1
-value2 = 2
-value3 = value1 + value2
-print("The information is " + str(value3))
-print("If the information is ", value3, "then", value3, "is the information.")
-
-
 
 # INPUT
 # Series of input syntaxes to change same value with different string values
