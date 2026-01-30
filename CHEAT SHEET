@@ -9,12 +9,6 @@ print(value)
 print(\n)
 
 # PRINTING
-# Strings with variables
-value1 = "information"
-print(value1 + " information")
- = information information
-
-# PRINTING
 # F-strings with variables
 print(f"The information is {value1}")
 
@@ -29,12 +23,18 @@ print(value1[1]) = second char
 print(value1[-2]) = first char
 print(value1[-1]) = second char
 
+# CONCATENATION
+# Strings with variables
+value1 = "information"
+value2 = value1 + " information"
+ = information information
+
 # MATHEMATICS
 # ORDER OF OPERATIONS
-print(1+1)
-print(1-1)
-print(1*1)
-print(1**1)
+value1 = 1+1
+value1 = 1-1
+value1 = 1*1
+value1 = 1**1
 
 # ORDER OF OPERATIONS and PRINTING
 # Basic mathematics
