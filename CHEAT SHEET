@@ -1,12 +1,63 @@
+# SYNTAXES / FUNCTIONS ETOO RINNNNNNNNNNNNNNNNNNNNNNNNNN
+# Remove natural endline
+end = ""
+
+# DATA TYPES BALIKAN MO TOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+# String and integer
+value1 = 1
+value2 = 2
+value3 = value1 + value2
+print("The information is " + str(value3))
+
+# FUNCTION / SEQUENCE
+
+# EMPTY LINE
+print(\n)
+      
+# SQUARE ROOT
+value1 = math(sqrt(9))
+
+# LENGTH OF STRING  
+print(len("information"))
+
+
+
+# HASHTAG
+" ' Francis ' "
+' " Francis " '
+
+# STR
+# String data type
+value1 = "10"
+
+# INT
+# Integer data type
+value1 = 10
+
+# FLOAT
+# Floating data type
+value1 = 10.5
+
+# BOOLEAN VALUE
+5-1 < 5
+
+# COMPARISON OPERATORS
+("  ==
+    !=
+    >
+    =>
+    <
+    =<  ")
+
 # PRINTING
 # Basic printing
 print("information")
 print('information')
-print(value)
+print(value1)
 
 # PRINTING
-# Empty line
-print(\n)
+# Strings with variables
+print("The information is ", value1)
 
 # PRINTING
 # F-strings with variables
@@ -24,7 +75,7 @@ print(value1[-2]) = first char
 print(value1[-1]) = second char
 
 # CONCATENATION
-# Strings with variables
+# Strings with strings
 value1 = "information"
 value2 = value1 + " information"
  = information information
@@ -36,125 +87,70 @@ value1 = 1-1
 value1 = 1*1
 value1 = 1**1
 
-# ORDER OF OPERATIONS and PRINTING
-# Basic mathematics
+# MATHEMATICS
+# Floating value
+value1 = 1/1
+
+# MATHEMATICS
+# Integer value
+value1 = 1//1
+
+# MATHEMATICS
+# Modulo
+value1 = 1%1
+
+# MATHEMATICS
+# Basic mathematics with variables
+value1 = 1
+value2 = value1 + 1
+
+# MATHEMATICS
+# Basic mathematics with variables
 value1 = 1
 value2 = 2
-print(value1 + 1)
-    # OR
-print(value1 + value2)
 value3 = value1 + value2
 
-# ORDER OF OPERATIONS and PRINTING
+# MATHEMATICS
 # Basic mathematics with string value and integer value
 value1 = "1"
-print(int(value1) + 1)
+value2 = int(value1) + 1
 
-# ORDER OF OPERATIONS and PRINTING
-# String and integer value
-value1 = 1
-value2 = 2
-value3 = value1 + value2
-print("The information is " + str(value3))
-print("If the information is ", value3, "then", value3, "is the information.")
-
-# HASHTAG
-" ' Francis ' "
-' '' Francis " '
-value1 = "information"
-
-# STR
-# String data type
-value1 = "10"
-
-# INT
-# Integer data type
-value1 = 10
-
-# FLOAT
-# Floating data type
-
-# BOOLEAN VALUE
-5-1 < 5
-
-# SYNTAXES / FUNCTIONS
-# Remove natural endline
-end = ""
-
-# ORDER OF OPERATIONS
-# Floating value
-print(1/1)
-
-# ORDER OF OPERATIONS
-# Integer value
-print(1//1)
-
-# ORDER OF OPERATIONS
-# Modulo
-print(1%1)
-
-# ORDER OF OPERATIONS
-# Square root
-from math import sqrt
-print(sqrt(9))
-
-# IDENTIFIERS
-# Length of string
-print(len("information"))
-
-# ORDER OF OPERATIONS AND IDENTIFIERS
-# Length of string
-print(" +" * len("information"))
-
-# COMPARISON OPERATORS
-("
-
-  ==
-  !=
-  >
-  =>
-  <
-  =<
-
-  ")
+# MATHEMATICS
+# Basic mathematics with only strings
+value1 = " +" * len("information")
 
 # INPUT
-# Series of input syntaxes to change same value with different string values
-value1 = input("information")
-value1 = input("information?")
-value1 = input("information.")
+# Change the same variable with different string values
+value1 = input("question")
+value1 = input("question?")
+value1 = input("question.")
 
 # INPUT
-# Adding together different input integer values
+# Add together different integer values
 value1 = 0
-value2 = int(input("information"))
+value2 = int(input("question"))
 value1 = value1 + value2
-value2 = int(input("information?"))
+value2 = int(input("question?"))
 value1 = value1 + value2
-value2 = int(input("information."))
+value2 = int(input("question."))
 value1 = value1 + value2
-    # OR
-value1 = 0
-value2 = int(input("information"))
-value1 += value2
-value2 = int(input("information?"))
-value1 += value2
-value2 = int(input("information."))
-value1 += value2
-    # OR
-value1 = 0
-value1 += int(input("information"))
-value1 += int(input("information?"))
-value1 += int(input("information."))
 
 # INPUT
-# Numbers inputted as integer or floating value
-value1 = input("information")
-value2 = int(value1)
-    # OR
-input(float(input("information")))
+# Add together different integer values
+value1 = 0
+value2 = int(input("question"))
+value1 += value2
+value2 = int(input("question?"))
+value1 += value2
+value2 = int(input("question."))
+value1 += value2
 
-
+# INPUT
+# Add together different integer values
+value1 = 0
+value1 += int(input("question"))
+value1 += int(input("question?"))
+value1 += int(input("question."))
 
 # CONDITIONAL STATEMENTS
 # If statements
