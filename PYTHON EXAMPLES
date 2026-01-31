@@ -61,4 +61,3 @@ print(f"{state_1} = {calcu_3}")
 # If statements
 if value1 == 0:
     print(value1)
-    
