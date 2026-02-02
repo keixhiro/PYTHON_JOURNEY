@@ -188,13 +188,9 @@ if value1 == 0:
 # WHILE LOOPS
 # SIMPLE LOOPS
 while True:
-    value1 = int(input("information"))
+    value1 = int(input("question"))
     if value1 == 0:
         break
-
-print("information?")
-
-print("information.")
 
 # WHILE LOOPS
 # HELPER VARIABLE
