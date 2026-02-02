@@ -9,18 +9,13 @@ value2 = 2
 value3 = value1 + value2
 print("The information is " + str(value3))
 
-# FUNCTION / SEQUENCE
-
+"FUNCTION / SEQUENCE"
 # EMPTY LINE
 print(\n)
-      
 # SQUARE ROOT
 value1 = math(sqrt(9))
-
 # LENGTH OF STRING  
 print(len("information"))
-
-
 
 # HASHTAG
 " ' Francis ' "
@@ -78,7 +73,7 @@ print(value1[-1]) = second char
 # Strings with strings
 value1 = "information"
 value2 = value1 + " information"
- = information information
+"information information"
 
 # MATHEMATICS
 # ORDER OF OPERATIONS
@@ -158,12 +153,11 @@ if value1 == 0:
     print(value1)
 
 # CONDITIONAL STATEMENTS
-# If statements, condition
+# If statements with boolean condition
 value1 = 0
 value2 = value1 < 5
-print(value2)
 if value2:
-    print("value1)
+    print(value1)
 
 # CONDITIONAL STATEMENTS
 # If, elif, else statements
@@ -190,8 +184,6 @@ if value1 =< 0 or value1 => 0:
 if value1 == 0:
     if value1 == 0:
         print("information")
-
-
 
 # WHILE LOOPS
 # SIMPLE LOOPS
