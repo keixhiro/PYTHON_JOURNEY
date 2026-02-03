@@ -23,18 +23,18 @@ print(len("information"))
 
 # STR
 # String data type
-value1 = "10"
+value1 = "1"
 
 # INT
 # Integer data type
-value1 = 10
+value1 = 1
 
 # FLOAT
 # Floating data type
-value1 = 10.5
+value1 = 1.5
 
 # BOOLEAN VALUE
-5-1 < 5
+1-1 < 1
 
 # COMPARISON OPERATORS
 ("  ==
@@ -73,6 +73,19 @@ print(value1[-1]) = second char
 # Strings with strings
 value1 = "information"
 value2 = value1 + " information"
+"information information"
+
+# CONCATENATION
+# Strings with strings
+value1 = " "
+value2= "information"
+value1 += value2
+" information"
+
+# CONCATENATION
+# Strings with strings
+value1 = "information"
+value1 += " information"
 "information information"
 
 # MATHEMATICS
@@ -149,54 +162,53 @@ value1 += int(input("question."))
 
 # CONDITIONAL STATEMENTS
 # If statements
-if value1 == 0:
+if value1 == 1:
     print(value1)
 
 # CONDITIONAL STATEMENTS
 # If statements with boolean condition
-value1 = 0
-value2 = value1 < 5
-if value2:
+value1 = 1 < 5
+if value1:
     print(value1)
 
 # CONDITIONAL STATEMENTS
 # If, elif, else statements
-value1 = 0
-if value1 == 0:
+value1 = 1
+if value1 == 1:
     print("information")
-elif value1 => 0:
+elif value1 > 1:
     print("information?")
 else:
     print("information.")
 
 # CONDITIONAL STATEMENTS
 # AND Logical Operator
-if value1 =< 0 and value1 => 0:
+if value1 =< 1 and value1 => 1:
     print("information")
 
 # CONDITIONAL STATEMENTS
 # OR Logical Operator
-if value1 =< 0 or value1 => 0:
+if value1 < 1 or value1 > 1:
     print("information")
 
 # CONDITIONAL STATEMENTS
 # NESTED CONDITIONALS
-if value1 == 0:
-    if value1 == 0:
+if value1 == 1:
+    if value1 == 1:
         print("information")
 
 # WHILE LOOPS
 # SIMPLE LOOPS
 while True:
     value1 = int(input("question"))
-    if value1 == 0:
+    if value1 == 1:
         break
 
 # WHILE LOOPS
 # HELPER VARIABLE
 attempts = 0
 while True:
-    value1 = input("What is the password ")
+    value1 = input("question")
     attempts += 1
 
     if value1  == "1":
@@ -205,21 +217,12 @@ while True:
     elif attempts == 3:
         correct = False
         break
-
 print("Please try again")
 
 if correct:
-    print("Correct password")
+    print("value1 is 1")
 else:
-    print("Please try again after a few minutes")
-
-# WHILE LOOPS
-# CONCATENATING STRINGS
-value3 = ""
-value3 += value1
-    #OR
-value3 = "information"
-value3 += ", information?"
+    print("three wrong inputs")
 
 # WHILE LOOPS
 # WITH CONDITIONS
@@ -230,4 +233,3 @@ while = 1:
 value1 = "infor"
 value2 = "mation"
 value3 = value1 + value2
-

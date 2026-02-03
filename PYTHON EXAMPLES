@@ -57,16 +57,3 @@ print(f"{state_1} = {calcu_3}")
 
 #ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 
-# WHILE LOOPS
-# HELPER VARIABLE
-attempts = 0
-while True:
-    value1 = input("What is the password ")
-    attempts += 1
-
-    if value1  == "1":
-        correct = True
-        break
-    elif attempts == 3:
-        correct = False
-        break
