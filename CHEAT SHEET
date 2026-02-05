@@ -9,11 +9,12 @@ value2 = 2
 value3 = value1 + value2
 print("The information is " + str(value3))
 
-"FUNCTION / SEQUENCE"
 # EMPTY LINE
 print(\n)
+
 # SQUARE ROOT
 value1 = math(sqrt(9))
+
 # LENGTH OF STRING  
 print(len("information"))
 
@@ -22,15 +23,15 @@ print(len("information"))
 ' " Francis " '
 
 # STR
-# String data type
+# STRING DATA TYPE
 value1 = "1"
 
 # INT
-# Integer data type
+# INTEGGER DATA TYPE
 value1 = 1
 
 # FLOAT
-# Floating data type
+# FLOATING DATA TYPE
 value1 = 1.5
 
 # BOOLEAN VALUE
@@ -45,48 +46,54 @@ value1 = 1.5
     =<  ")
 
 # PRINTING
-# Basic printing
+# BASIC PRINTING
 print("information")
 print('information')
 print(value1)
 
 # PRINTING
-# Strings with variables
+# STRINGS WITH VARIABLE
 print("The information is ", value1)
 
 # PRINTING
-# F-strings with variables
+# F-STRINGS WITH VARIABLES
 print(f"The information is {value1}")
 
 # PRINTING
-# Specific characters
+# SPECIFIC CHARACTERS
 value1 = "information"
 print(value1[0]) = first char
 print(value1[1]) = second char
 
 # PRINTING
-# Specific characters
+# SSPECIFIC CHARACTERS
 print(value1[-2]) = first char
 print(value1[-1]) = second char
 
 # CONCATENATION
-# Strings with strings
+# STRINGS WITH STRINGS
 value1 = "information"
-value2 = value1 + " information"
+value1 = value1 + " information"
 "information information"
 
 # CONCATENATION
-# Strings with strings
+# STRINGS WITH STRINGS
+value1 = "information"
+value1 += " information"
+"information information"
+
+# CONCATENATION
+# STRINGS WITH STRINGS
 value1 = " "
 value2= "information"
 value1 += value2
 " information"
 
-# CONCATENATION
-# Strings with strings
-value1 = "information"
-value1 += " information"
-"information information"
+# CONCANTENATION
+# F-STRINGS WITH STRINGS
+value1 = "the information is "
+value2 = "information?""
+value1 = (f"information {value2}")
 
 # MATHEMATICS
 # ORDER OF OPERATIONS
@@ -96,15 +103,15 @@ value1 = 1*1
 value1 = 1**1
 
 # MATHEMATICS
-# Floating value
+# FLOATING VALUE
 value1 = 1/1
 
 # MATHEMATICS
-# Integer value
+# INTEGER VALUE
 value1 = 1//1
 
 # MATHEMATICS
-# Modulo
+# MODULO
 value1 = 1%1
 
 # MATHEMATICS
@@ -161,18 +168,18 @@ value1 += int(input("question?"))
 value1 += int(input("question."))
 
 # CONDITIONAL STATEMENTS
-# If statements
+# IF statements
 if value1 == 1:
     print(value1)
 
 # CONDITIONAL STATEMENTS
-# If statements with boolean condition
+# IF statements with boolean condition
 value1 = 1 < 5
 if value1:
     print(value1)
 
 # CONDITIONAL STATEMENTS
-# If, elif, else statements
+# IF, ELIF, ELSE statements
 value1 = 1
 if value1 == 1:
     print("information")
@@ -229,7 +236,3 @@ else:
 while = 1:
     print("information")
 
-# STRING OPERATIONS
-value1 = "infor"
-value2 = "mation"
-value3 = value1 + value2
