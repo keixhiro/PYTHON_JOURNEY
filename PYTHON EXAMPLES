@@ -56,8 +56,3 @@ print(f"{state_1} = {calcu_3}")
 '''
 
 #ENDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-
-value1 = "the information is "
-value2 = "information?"
-value1 += (f"information {value2}")
-print(value1)
