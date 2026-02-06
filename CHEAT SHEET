@@ -27,7 +27,7 @@ print(len("information"))
 value1 = "1"
 
 # INT
-# INTEGGER DATA TYPE
+# INTEGER DATA TYPE
 value1 = 1
 
 # FLOAT
@@ -94,6 +94,7 @@ value1 += value2
 value1 = "the information is "
 value2 = "information?""
 value1 = (f"information {value2}")
+" the information is information information?"
 
 # MATHEMATICS
 # ORDER OF OPERATIONS
@@ -235,4 +236,3 @@ else:
 # WITH CONDITIONS
 while = 1:
     print("information")
-
