@@ -94,7 +94,7 @@ value1 += value2
 value1 = "the information is "
 value2 = "information?""
 value1 += (f"information {value2}")
-" the information is information information?"
+"the information is information information?"
 
 # MATHEMATICS
 # ORDER OF OPERATIONS
