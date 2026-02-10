@@ -84,10 +84,10 @@ value1 += " information"
 
 # CONCATENATION
 # STRINGS WITH STRINGS
-value1 = " "
-value2= "information"
+value1 = "information"
+value2= " information"
 value1 += value2
-" information"
+"information information"
 
 # CONCANTENATION
 # F-STRINGS WITH STRINGS
