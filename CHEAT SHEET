@@ -89,11 +89,11 @@ value2= " information"
 value1 += value2
 "information information"
 
-# CONCANTENATION
+# CONCANTENATION (make sure to check again by running it)
 # F-STRINGS WITH STRINGS
 value1 = "the information is "
 value2 = "information?""
-value1 = (f"information {value2}")
+value1 += (f"information {value2}")
 " the information is information information?"
 
 # MATHEMATICS
