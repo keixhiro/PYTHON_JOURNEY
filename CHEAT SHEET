@@ -66,7 +66,7 @@ print(value1[0]) = first char
 print(value1[1]) = second char
 
 # PRINTING
-# SSPECIFIC CHARACTERS
+# SPECIFIC CHARACTERS
 print(value1[-2]) = first char
 print(value1[-1]) = second char
 
@@ -84,17 +84,17 @@ value1 += " information"
 
 # CONCATENATION
 # STRINGS WITH STRINGS
-value1 = " "
-value2= "information"
+value1 = "information"
+value2= " information"
 value1 += value2
-" information"
+"information information"
 
-# CONCANTENATION
+# CONCANTENATION (make sure to check again by running it)
 # F-STRINGS WITH STRINGS
 value1 = "the information is "
 value2 = "information?""
-value1 = (f"information {value2}")
-" the information is information information?"
+value1 += (f"information {value2}")
+"the information is information information?"
 
 # MATHEMATICS
 # ORDER OF OPERATIONS
