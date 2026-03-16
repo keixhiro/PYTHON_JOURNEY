@@ -544,3 +544,98 @@ int main() {
     
     return 0;
 }
+
+#include <stdio.h>
+
+void bubble_sort(float a[], int n) {
+    int i, j;
+    float t;
+    for(i = 0; i < n - 1; i++) {
+        for(j = 0; j < n - i - 1; j++) {
+            if(a[j] > a[j + 1]) {
+                t = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = t;
+            }
+        }
+    }
+}
+
+void insert_sort(float a[], int n) {
+    int i, j;
+    float key;
+    for(i = 1; i < n; i++) {
+        key = a[i];
+        j = i - 1;
+        while(j >= 0 && a[j] > key) {
+            a[j + 1] = a[j];
+            j--;
+        }
+        a[j + 1] = key;
+    }
+}
+
+void select_sort(float a[], int n) {
+    int i, j, min_index;
+    float t;
+    for(i = 0; i < n - 1; i++) {
+        min_index = i;
+        for(j = i + 1; j < n; j++) {
+            if(a[j] < a[min_index]) {
+                min_index = j;
+            }
+        }
+        t = a[i];
+        a[i] = a[min_index];
+        a[min_index] = t;
+    }
+}
+
+void copy_array(float source[], float destination[], int n) {
+    for(int i = 0; i < n; i++) {
+        destination[i] = source[i];
+    }
+}
+
+void display(float a[], int n) {
+    for(int i = 0; i < n; i++) {
+        printf("%.2f ", a[i]);
+    }
+    printf("\n");
+}
+
+int main() {
+    int n;
+    float celsius[100], fahrenheit[100];
+    float bubble[100], insertion[100], selection[100];
+
+    printf("Enter the number of temperatures: ");
+    scanf("%d", &n);
+    printf("Enter %d temperatures in Celsius:\n", n);
+    for(int i = 0; i < n; i++) {
+        scanf("%f", &celsius[i]);
+    }
+
+    for(int i = 0; i < n; i++) {
+        fahrenheit[i] = (celsius[i] * 9 / 5) + 32;
+    }
+
+    copy_array(fahrenheit, bubble, n);
+    copy_array(fahrenheit, insertion, n);
+    copy_array(fahrenheit, selection, n);
+
+    bubble_sort(bubble, n);
+    insert_sort(insertion, n);
+    select_sort(selection, n);
+
+    printf("\nSorted temperatures using Bubble Sort:\n");
+    display(bubble, n);
+
+    printf("Sorted temperatures using Insertion Sort:\n");
+    display(insertion, n);
+
+    printf("Sorted temperatures using Selection Sort:\n");
+    display(selection, n);
+
+    return 0;
+}
