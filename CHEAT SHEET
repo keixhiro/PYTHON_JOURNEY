@@ -47,8 +47,8 @@ value1 = 1.5
 
 # PRINTING
 # BASIC PRINTING
-print("information")
-print('information')
+print('the "information"')
+the information
 print(value1)
 
 # PRINTING
