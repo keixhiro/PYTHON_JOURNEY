@@ -45,43 +45,50 @@ value1 = 1.5
     <
     =<  ")
 
+
 # PRINTING
 # BASIC PRINTING
 print('the "information"')
 the information
 print(value1)
-
+#
 # PRINTING
 # STRINGS WITH VARIABLE
 print("The information is ", value1)
-
+#
 # PRINTING
 # F-STRINGS WITH VARIABLES
 print(f"The information is {value1}")
-
+#
 # PRINTING
 # SPECIFIC CHARACTERS
 value1 = "information"
-print(value1[0]) = first char
-print(value1[1]) = second char
-
+print(value1[0]
+i
+print(value1[1]
+n
+#
 # PRINTING
 # SPECIFIC CHARACTERS
-print(value1[-2]) = first char
-print(value1[-1]) = second char
+value1 = "info"
+print(value1[-2])
+n
+print(value1[-1])
+f
+
 
 # CONCATENATION
 # STRINGS WITH STRINGS
 value1 = "information"
 value1 = value1 + " information"
 "information information"
-
+#
 # CONCATENATION
 # STRINGS WITH STRINGS
 value1 = "information"
 value1 += " information"
 "information information"
-
+#
 # CONCATENATION
 # STRINGS WITH STRINGS
 value1 = "information"
@@ -96,36 +103,37 @@ value2 = "information?""
 value1 += (f"information {value2}")
 "the information is information information?"
 
+
 # MATHEMATICS
 # ORDER OF OPERATIONS
 value1 = 1+1
 value1 = 1-1
 value1 = 1*1
 value1 = 1**1
-
+#
 # MATHEMATICS
 # FLOATING VALUE
 value1 = 1/1
-
+#
 # MATHEMATICS
 # INTEGER VALUE
 value1 = 1//1
-
+#
 # MATHEMATICS
 # MODULO
 value1 = 1%1
-
+#
 # MATHEMATICS
 # Basic mathematics with variables
 value1 = 1
 value2 = value1 + 1
-
+#
 # MATHEMATICS
 # Basic mathematics with variables
 value1 = 1
 value2 = 2
 value3 = value1 + value2
-
+#
 # MATHEMATICS
 # Basic mathematics with string value and integer value
 value1 = "1"
@@ -134,6 +142,7 @@ value2 = int(value1) + 1
 # MATHEMATICS
 # Basic mathematics with only strings
 value1 = " +" * len("information")
+
 
 # INPUT
 # Change the same variable with different string values
@@ -150,7 +159,7 @@ value2 = int(input("question?"))
 value1 = value1 + value2
 value2 = int(input("question."))
 value1 = value1 + value2
-
+#
 # INPUT
 # Add together different integer values
 value1 = 0
@@ -160,13 +169,17 @@ value2 = int(input("question?"))
 value1 += value2
 value2 = int(input("question."))
 value1 += value2
-
+#
 # INPUT
 # Add together different integer values
 value1 = 0
 value1 += int(input("question"))
 value1 += int(input("question?"))
 value1 += int(input("question."))
+
+
+
+
 
 # CONDITIONAL STATEMENTS
 # IF statements
