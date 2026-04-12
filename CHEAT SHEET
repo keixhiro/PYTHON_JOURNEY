@@ -1,4 +1,4 @@
-# SYNTAXES / FUNCTIONS ETOO RINNNNNNNNNNNNNNNNNNNNNNNNNN
+# TYPES
 # Remove natural endline
 end = ""
 
@@ -58,7 +58,7 @@ print(value1)
 
 # PRINTING
 # STRINGS WITH VARIABLE
-print("The information is ",str(value1)
+print("The information is ", str(value1)
 print("The information is ", value1)
 
 # PRINTING
