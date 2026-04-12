@@ -2,41 +2,43 @@
 # Remove natural endline
 end = ""
 
-# DATA TYPES BALIKAN MO TOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-# String and integer
-value1 = 1
-value2 = 2
-value3 = value1 + value2
-print("The information is " + str(value3))
-
+# TYPES
 # EMPTY LINE
 print(\n)
 
+# TYPES
 # SQUARE ROOT
 value1 = math(sqrt(9))
 
+# TYPES
 # LENGTH OF STRING  
 print(len("information"))
 
+# TYPES
 # HASHTAG
 " ' Francis ' "
 ' " Francis " '
 
+# TYPES
 # STR
 # STRING DATA TYPE
 value1 = "1"
 
+# TYPES
 # INT
 # INTEGER DATA TYPE
 value1 = 1
 
+# TYPES
 # FLOAT
 # FLOATING DATA TYPE
 value1 = 1.5
 
+# TYPES
 # BOOLEAN VALUE
 1-1 < 1
 
+# TYPES
 # COMPARISON OPERATORS
 ("  ==
     !=
@@ -45,21 +47,24 @@ value1 = 1.5
     <
     =<  ")
 
+------------------------------
+------------------------------
 
 # PRINTING
 # BASIC PRINTING
 print('the "information"')
 the information
 print(value1)
-#
+
 # PRINTING
 # STRINGS WITH VARIABLE
+print("The information is ",str(value1)
 print("The information is ", value1)
-#
+
 # PRINTING
 # F-STRINGS WITH VARIABLES
 print(f"The information is {value1}")
-#
+
 # PRINTING
 # SPECIFIC CHARACTERS
 value1 = "information"
@@ -67,7 +72,7 @@ print(value1[0]
 i
 print(value1[1]
 n
-#
+
 # PRINTING
 # SPECIFIC CHARACTERS
 value1 = "info"
@@ -82,13 +87,13 @@ f
 value1 = "information"
 value1 = value1 + " information"
 "information information"
-#
+
 # CONCATENATION
 # STRINGS WITH STRINGS
 value1 = "information"
 value1 += " information"
 "information information"
-#
+
 # CONCATENATION
 # STRINGS WITH STRINGS
 value1 = "information"
@@ -110,30 +115,30 @@ value1 = 1+1
 value1 = 1-1
 value1 = 1*1
 value1 = 1**1
-#
+
 # MATHEMATICS
 # FLOATING VALUE
 value1 = 1/1
-#
+
 # MATHEMATICS
 # INTEGER VALUE
 value1 = 1//1
-#
+
 # MATHEMATICS
 # MODULO
 value1 = 1%1
-#
+
 # MATHEMATICS
 # Basic mathematics with variables
 value1 = 1
 value2 = value1 + 1
-#
+
 # MATHEMATICS
 # Basic mathematics with variables
 value1 = 1
 value2 = 2
 value3 = value1 + value2
-#
+
 # MATHEMATICS
 # Basic mathematics with string value and integer value
 value1 = "1"
@@ -159,7 +164,7 @@ value2 = int(input("question?"))
 value1 = value1 + value2
 value2 = int(input("question."))
 value1 = value1 + value2
-#
+
 # INPUT
 # Add together different integer values
 value1 = 0
@@ -169,7 +174,7 @@ value2 = int(input("question?"))
 value1 += value2
 value2 = int(input("question."))
 value1 += value2
-#
+
 # INPUT
 # Add together different integer values
 value1 = 0
