@@ -148,7 +148,7 @@ value1 = " +" * len("information")
 # Change the same variable with different string values
 value1 = input("question")
 value1 = input("question?")
-value1 = input("question.")
+value1 = "question."
 
 # INPUT
 # Add together different integer values
