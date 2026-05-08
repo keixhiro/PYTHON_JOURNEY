@@ -640,6 +640,152 @@ int main() {
     return 0;
 }
 
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+struct Order{
+    int orderID;
+    char itemName[50];
+    int quantity;
+    float price;
+};
+
+int main(void) {
+    float total;
+    struct Order order1;
+    printf("Enter Order ID; ");
+    scanf("%d", &order1.orderID);
+    getchar();
+    printf("Enter Item; ");
+    fgets(order1.itemName, sizeof (order1.itemName), stdin);
+    order1.itemName[strcspn(order1.itemName, "\n")] = 0;
+    printf("Enter Quantity; ");
+    scanf("%d", &order1.quantity);
+    printf("Enter Price; ");
+    scanf("%.2f", &order1.price);
+
+    total = (order1.quantity) * (order1.price);
+    
+    printf("Order ID: %d \n", order1.orderID);
+    printf("Item: %s", order1.itemName);
+    printf("Quantity; %d \n",  order1.quantity);
+    printf("Price: %.2f \n", order1.price);
+    printf("Total: %.2f \n", &total);
+    return 0;
+}
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+struct Order{
+    int orderID;
+    char itemName[50];
+    int quantity;
+    float price;
+    float total;
+};
+
+int main(void) {
+    struct Order order[2];
+    for(int i=0; i<1; i++){
+        printf("Enter Order ID; ");
+        scanf("%d", &order[i].orderID);
+        getchar();
+        printf("Enter Item; ");
+        fgets(order[i].itemName, sizeof(order[i].itemName), stdin);
+        order[i].itemName[strcspn(order[i].itemName, "\n")] = 0;
+        printf("Enter Quantity; ");
+        scanf("%d", &order[i].quantity);
+        printf("Enter Price; ");
+        scanf("%.2f", &order[i].price);
+        order[i].total = (order[i].quantity) * (order[i].price);
+    }
+
+    for(int i=0; i<1; i++){
+        printf("Order ID: %d \n", &order[i].orderID);
+        printf("Item: %s \n", &order[i].itemName);
+        printf("Quantity; %d \n",  &order[i].quantity);
+        printf("Price: %.2f \n", order[i].price);
+        printf("Total: %.2f \n", order[i].total);
+
+    }
+    return 0;
+}
+
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+struct Order{
+    int orderID;
+    char itemName[50];
+    int quantity;
+    float price;
+};
+
+int main(void) {
+    float total;
+    struct Order order1;
+    printf("Enter Order ID; ");
+    scanf("%d", &order1.orderID);
+    getchar();
+    printf("Enter Item; ");
+    fgets(order1.itemName, sizeof (order1.itemName), stdin);
+    order1.itemName[strcspn(order1.itemName, "\n")] = 0;
+    printf("Enter Quantity; ");
+    scanf("%d", &order1.quantity);
+    printf("Enter Price; ");
+    scanf("%.2f", &order1.price);
+
+    total = (order1.quantity) * (order1.price);
+    
+    printf("Order ID: %d \n", order1.orderID);
+    printf("Item: %s", order1.itemName);
+    printf("Quantity; %d \n",  order1.quantity);
+    printf("Price: %.2f \n", order1.price);
+    printf("Total: %.2f \n", &total);
+    return 0;
+}
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+struct Order{
+    int orderID;
+    char itemName[50];
+    int quantity;
+    float price;
+    float total;
+};
+
+int main(void) {
+    struct Order order[2];
+    for(int i=0; i<1; i++){
+        printf("Enter Order ID; ");
+        scanf("%d", &order[i].orderID);
+        getchar();
+        printf("Enter Item; ");
+        fgets(order[i].itemName, sizeof(order[i].itemName), stdin);
+        order[i].itemName[strcspn(order[i].itemName, "\n")] = 0;
+        printf("Enter Quantity; ");
+        scanf("%d", &order[i].quantity);
+        printf("Enter Price; ");
+        scanf("%.2f", &order[i].price);
+        order[i].total = (order[i].quantity) * (order[i].price);
+    }
+
+    for(int i=0; i<1; i++){
+        printf("Order ID: %d \n", &order[i].orderID);
+        printf("Item: %s \n", &order[i].itemName);
+        printf("Quantity; %d \n",  &order[i].quantity);
+        printf("Price: %.2f \n", order[i].price);
+        printf("Total: %.2f \n", order[i].total);
+
+    }
+    return 0;
+}
+
 
 
 
