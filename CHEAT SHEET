@@ -1,69 +1,52 @@
-# TYPES
-# Remove natural endline
-end = ""
+' OR "
 
-# TYPES
-# EMPTY LINE
-print(\n)
+end="" # MAKES PRINTED STATEMENT AFTER CURRENT STATEMENT GET PRINTED NEXT TO EACH OTHER
 
-# TYPES
-# SQUARE ROOT
-value1 = math(sqrt(9))
+FLOATING = /
+INTEGER = //
+MODULO = %
+EXPONENTIATION = **
 
-# TYPES
-# LENGTH OF STRING  
-print(len("information"))
+00000000000000000000000000000000000000000000000000
 
-# TYPES
-# HASHTAG
-" ' Francis ' "
-' " Francis " '
+value0 = input()
 
-# TYPES
-# STR
-# STRING DATA TYPE
-value1 = "1"
++ value0 + " " OR f"{value0} "
 
-# TYPES
-# INT
-# INTEGER DATA TYPE
-value1 = 1
+value0 = value1 + value2
+# STRING DATA TYPES GET PRINTED NEXT TO EACH OTHER, INTEGER DATA TYPES FOLLOW PEMDAS
 
-# TYPES
-# FLOAT
-# FLOATING DATA TYPE
-value1 = 1.5
+value0 +=
 
-# TYPES
-# BOOLEAN VALUE
-1-1 < 1
+00000000000000000000000000000000000000000000000000
 
-# TYPES
-# COMPARISON OPERATORS
-("  ==
-    !=
-    >
-    =>
-    <
-    =<  ")
+print(str(value0))
+print(int(value0))
 
-------------------------------
-------------------------------
+print(type(str, int, float))
 
-# PRINTING
-# BASIC PRINTING
-print('the "information"')
-the information
-print(value1)
+00000000000000000000000000000000000000000000000000
 
-# PRINTING
-# STRINGS WITH VARIABLE
-print("The information is ", str(value1)
-print("The information is ", value1)
+if value0 == 0 and value1 == 1
+elif value0 == 0 or value1 == 1
+else
+# NOT EQUAL TO = !=
+# EQUAL TO = ==
 
-# PRINTING
-# F-STRINGS WITH VARIABLES
-print(f"The information is {value1}")
+# YOU CAN PUT CONDITIONS INSIDE VARIABLES
+# ex.
+value0 = True
+if value0:
+     print("This is true")
+
+00000000000000000000000000000000000000000000000000
+
+while True:
+
+00000000000000000000000000000000000000000000000000
+
+
+
 
 # PRINTING
 # SPECIFIC CHARACTERS
@@ -80,177 +63,3 @@ print(value1[-2])
 n
 print(value1[-1])
 f
-
-
-# CONCATENATION
-# STRINGS WITH STRINGS
-value1 = "information"
-value1 = value1 + " information"
-"information information"
-
-# CONCATENATION
-# STRINGS WITH STRINGS
-value1 = "information"
-value1 += " information"
-"information information"
-
-# CONCATENATION
-# STRINGS WITH STRINGS
-value1 = "information"
-value2= " information"
-value1 += value2
-"information information"
-
-# CONCANTENATION (make sure to check again by running it)
-# F-STRINGS WITH STRINGS
-value1 = "the information is "
-value2 = "information?""
-value1 += (f"information {value2}")
-"the information is information information?"
-
-
-# MATHEMATICS
-# ORDER OF OPERATIONS
-value1 = 1+1
-value1 = 1-1
-value1 = 1*1
-value1 = 1**1
-
-# MATHEMATICS
-# FLOATING VALUE
-value1 = 1/1
-
-# MATHEMATICS
-# INTEGER VALUE
-value1 = 1//1
-
-# MATHEMATICS
-# MODULO
-value1 = 1%1
-
-# MATHEMATICS
-# Basic mathematics with variables
-value1 = 1
-value2 = value1 + 1
-
-# MATHEMATICS
-# Basic mathematics with variables
-value1 = 1
-value2 = 2
-value3 = value1 + value2
-
-# MATHEMATICS
-# Basic mathematics with string value and integer value
-value1 = "1"
-value2 = int(value1) + 1
-
-# MATHEMATICS
-# Basic mathematics with only strings
-value1 = " +" * len("information")
-
-
-# INPUT
-# Change the same variable with different string values
-value1 = input("question")
-value1 = input("question?")
-value1 = "question."
-
-# INPUT
-# Add together different integer values
-value1 = 0
-value2 = int(input("question"))
-value1 = value1 + value2
-value2 = int(input("question?"))
-value1 = value1 + value2
-value2 = int(input("question."))
-value1 = value1 + value2
-
-# INPUT
-# Add together different integer values
-value1 = 0
-value2 = int(input("question"))
-value1 += value2
-value2 = int(input("question?"))
-value1 += value2
-value2 = int(input("question."))
-value1 += value2
-
-# INPUT
-# Add together different integer values
-value1 = 0
-value1 += int(input("question"))
-value1 += int(input("question?"))
-value1 += int(input("question."))
-
-
-
-
-
-# CONDITIONAL STATEMENTS
-# IF statements
-if value1 == 1:
-    print(value1)
-
-# CONDITIONAL STATEMENTS
-# IF statements with boolean condition
-value1 = 1 < 5
-if value1:
-    print(value1)
-
-# CONDITIONAL STATEMENTS
-# IF, ELIF, ELSE statements
-value1 = 1
-if value1 == 1:
-    print("information")
-elif value1 > 1:
-    print("information?")
-else:
-    print("information.")
-
-# CONDITIONAL STATEMENTS
-# AND Logical Operator
-if value1 =< 1 and value1 => 1:
-    print("information")
-
-# CONDITIONAL STATEMENTS
-# OR Logical Operator
-if value1 < 1 or value1 > 1:
-    print("information")
-
-# CONDITIONAL STATEMENTS
-# NESTED CONDITIONALS
-if value1 == 1:
-    if value1 == 1:
-        print("information")
-
-# WHILE LOOPS
-# SIMPLE LOOPS
-while True:
-    value1 = int(input("question"))
-    if value1 == 1:
-        break
-
-# WHILE LOOPS
-# HELPER VARIABLE
-attempts = 0
-while True:
-    value1 = input("question")
-    attempts += 1
-
-    if value1  == "1":
-        correct = True
-        break
-    elif attempts == 3:
-        correct = False
-        break
-print("Please try again")
-
-if correct:
-    print("value1 is 1")
-else:
-    print("three wrong inputs")
-
-# WHILE LOOPS
-# WITH CONDITIONS
-while = 1:
-    print("information")
