@@ -3,7 +3,8 @@ OR
 ""
 
 # PRINTS VALUE0 AND VALUE1 NEXT TO EACH OTHER
-end = ""
+print(value0, end = "")
+print(value1)
 
 FLOATING = /
 INTEGER = //
@@ -53,4 +54,9 @@ if value0:
 #MAKES CURRENT LOOP GO TO NEW LOOP
 while True:
      continue
+
+000000000000000000000000000000000000000000000000000000000000000000000000000
+
+def value0(value1):
+     print("information ", value1)
 
