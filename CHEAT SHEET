@@ -41,7 +41,6 @@ value2 = value0.find("mat")
 
 if value0 == 0 and value1 == 1
 elif value0 == 0 or value1 == 1
-else
 # NOT EQUAL TO is !=
 # EQUAL TO is ==
 
