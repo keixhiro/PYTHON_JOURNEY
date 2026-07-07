@@ -2,34 +2,3 @@
 
 
 
-
-
-
-print("Please type in numbers for the sum, difference, mean, positive and negative numbers: Press 0 to end number asking. ")
-trigger = 0
-value1 = 0
-value2 = 0
-value3 = 1
-value5 = 0
-value6 = 0
-while True:
-    value0 = int(input("What's the number? "))
-    if value0 == 0:
-        break
-    trigger += 1
-    value1 += value0
-    value2 -= value0
-    value3 *= value0
-    value4 = value3 / trigger
-    if value0 > 0:
-        value5 += 1
-    elif value0 < 0:
-        value6 += 1
-
-print(trigger)
-print(value1)
-print(value2)
-print(value3)
-print(value4)
-print(value5)
-print(value6)
