@@ -1,3 +1,6 @@
 #EXAMPLES
 
 
+
+value0 = input("Please type in a string")
+
