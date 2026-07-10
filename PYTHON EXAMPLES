@@ -2,7 +2,3 @@
 
 
 
-value0 = input("Please type in a string: ")
-value1 = len(value0)
-while value1 != 0:
-    print(value0[value1 -1])
