@@ -6,11 +6,6 @@ OR
 print(value0, end = "")
 print(value1)
 
-FLOATING = /
-INTEGER = //
-MODULO = %
-EXPONENTIATION = **
-
 000000000000000000000000000000000000000000000000000000000000000000000000000
 
 value0 = input()
@@ -35,8 +30,8 @@ value1 = "info" in value0
 
 value0 = "information"
 value1 = value0[0:11]
-#PRINTS THE INDEX
-value2 = value0.find("mat")
+
+value2 = value0.find(value to find, start, end)
 
 000000000000000000000000000000000000000000000000000000000000000000000000000
 

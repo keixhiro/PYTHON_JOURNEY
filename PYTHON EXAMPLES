@@ -1,8 +1,9 @@
 #EXAMPLES
 
 
-
-
+'''
+# https://programming-26.mooc.fi/part-3/2-working-with-strings
+# Programming exercise: Find all the substrings
 value0 = input("Please type in a word: ")
 value1 = input("Please type in a character: ")
 while True:
@@ -13,3 +14,13 @@ while True:
         value0 = value0[value2 + 1:]
     else:
         break
+'''
+
+# https://programming-26.mooc.fi/part-3/2-working-with-strings
+# Programming exercise: The second occurrence
+value0 = input("Please type in a word: ")
+value1 = input("Please input a character: ")
+value2 = value0.find(value1)
+if value2 != -1:
+    value3 = value0.find(value1, value2 + len(value1))
+    print(value3)
