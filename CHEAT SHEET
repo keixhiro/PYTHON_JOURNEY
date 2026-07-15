@@ -8,21 +8,7 @@ print(value1)
 
 000000000000000000000000000000000000000000000000000000000000000000000000000
 
-value0 = input()
-
-+ value0 + " "
-OR
-f"{value0} "
-
 # STRING DATA TYPES GET PRINTED NEXT TO EACH OTHER, INTEGER DATA TYPES FOLLOW PEMDAS
-value0 = value1 + value2
-
-value0 +=
-
-print(str(value0))
-print(int(value0))
-
-print(type(str, int, float))
 
 #PRINTS TRUE
 value0 = "information"
@@ -35,23 +21,13 @@ value2 = value0.find(value to find, start, end)
 
 000000000000000000000000000000000000000000000000000000000000000000000000000
 
-if value0 == 0 and value1 == 1
-elif value0 == 0 or value1 == 1
-# NOT EQUAL TO is !=
-# EQUAL TO is ==
-
 #CONDITIONS INSIDE VARIABLES
 # ex.
 value0 = True
 if value0:
      print("This is true")
 
-#MAKES CURRENT LOOP GO TO NEW LOOP
-while True:
-     continue
-
 000000000000000000000000000000000000000000000000000000000000000000000000000
 
 def value0(value1):
      print("information ", value1)
-

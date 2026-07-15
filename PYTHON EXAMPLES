@@ -1,26 +1,72 @@
 #EXAMPLES
 
 
-'''
+
 # https://programming-26.mooc.fi/part-3/2-working-with-strings
 # Programming exercise: Find all the substrings
+'''
 value0 = input("Please type in a word: ")
 value1 = input("Please type in a character: ")
 while True:
     if value1 in value0:
         value2 = value0.find(value1)
-        value3 = value0[value2:value2 + 3]
+        value3 = value0[value2:value2 + 2]
         print(value3)
         value0 = value0[value2 + 1:]
     else:
         break
 '''
-
 # https://programming-26.mooc.fi/part-3/2-working-with-strings
 # Programming exercise: The second occurrence
+'''
 value0 = input("Please type in a word: ")
 value1 = input("Please input a character: ")
 value2 = value0.find(value1)
 if value2 != -1:
     value3 = value0.find(value1, value2 + len(value1))
     print(value3)
+    if value3 != -1:
+        value4 = value0.find(value1, value3 + len(value1))
+        print(value4)
+'''
+# https://programming-26.mooc.fi/part-3/3-more-loops
+# Programming exercise: First letters of words
+'''
+value0 = input("Please type in a sentence: ")
+
+for value1 in value0.split():
+    print(value1[0])
+'''
+# OR
+'''
+value0 = input("Please type in a sentence: ")
+
+value1 = value0
+
+while value1 != "":
+    if value1[0] != " ":
+        print(value1[0])
+
+    if " " in value1:
+        value2 = value1.find(" ")
+        value1 = value1[value2 + 1]
+    else:
+        value1 = ""
+'''
+# https://programming-26.mooc.fi/part-3/3-more-loops
+# Programming exercise: Factorial
+value0 = 1
+while value0 != -1 or value0 != 0:
+    value1 = 1
+    value2 = 1
+    value0 = int(input("Please type in a number: "))
+    while True:
+        if value1 != value0:
+            value2 *= value1 + 1
+            value1 += 1
+        else:
+            break
+    print(f" The factorial of number {value1} is {value2}")
+    value0 = 0
+    if value0 == 0 or value0 == -1:
+        print("Thanks and goodbye!")
