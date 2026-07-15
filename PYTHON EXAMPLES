@@ -55,18 +55,20 @@ while value1 != "":
 '''
 # https://programming-26.mooc.fi/part-3/3-more-loops
 # Programming exercise: Factorial
+'''
 value0 = 1
-while value0 != -1 or value0 != 0:
+while True:
+    value0 = int(input("Please type in a number: "))
+    if value0 == -1 or value0 == 0:
+        break
     value1 = 1
     value2 = 1
-    value0 = int(input("Please type in a number: "))
     while True:
         if value1 != value0:
             value2 *= value1 + 1
             value1 += 1
         else:
             break
-    print(f" The factorial of number {value1} is {value2}")
-    value0 = 0
-    if value0 == 0 or value0 == -1:
-        print("Thanks and goodbye!")
+    print(f"The factorial of number {value1} is {value2}")
+print("Thanks and goodbye!")
+'''
