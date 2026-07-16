@@ -1,12 +1,49 @@
 #EXAMPLES
 
 
+# https://programming-26.mooc.fi/part-2/2-else-elif
+# Programming exercise: Alphabetically Last
+'''
+value0 = input("Please type in the first word: ")
+value1 = input("Please type in the second word: ")
 
+if value0 == value1:
+    print("You typed the same word.")
+elif value0 < value1:
+    print(f"{value0} comes first before {value1}.")
+else:
+    print(f"{value0} comes after {value1}.")
+'''
+# https://programming-26.mooc.fi/part-2/3-combining-conditions
+# Programming exercise: Alphabetically in the middle
+'''
+value0 = input("First letter: ")
+value1 = input("Second letter: ")
+value2 = input("Third letter: ")
+
+if value0 > value1:
+    if value0 < value2:
+        print(f"{value0} is the middle letter.")
+    else:
+        if value1 > value2:
+            print(f"{value1} is the middle letter")
+        else:
+            print(f"{value2} is the middle letter.")
+elif value1 > value0:
+    if value1 < value2:
+        print(f"{value1} is the middle letter.")
+    else:
+        if value2 > value0:
+            print(f"{value2} is the middle letter.")
+        else:
+            print(f"{value0} is the middle letter.")
+'''
 # https://programming-26.mooc.fi/part-3/2-working-with-strings
 # Programming exercise: Find all the substrings
 '''
 value0 = input("Please type in a word: ")
 value1 = input("Please type in a character: ")
+
 while True:
     if value1 in value0:
         value2 = value0.find(value1)
@@ -22,6 +59,7 @@ while True:
 value0 = input("Please type in a word: ")
 value1 = input("Please input a character: ")
 value2 = value0.find(value1)
+
 if value2 != -1:
     value3 = value0.find(value1, value2 + len(value1))
     print(value3)
@@ -57,6 +95,7 @@ while value1 != "":
 # Programming exercise: Factorial
 '''
 value0 = 1
+
 while True:
     value0 = int(input("Please type in a number: "))
     if value0 == -1 or value0 == 0:
@@ -70,5 +109,6 @@ while True:
         else:
             break
     print(f"The factorial of number {value1} is {value2}")
+
 print("Thanks and goodbye!")
 '''
