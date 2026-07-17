@@ -112,3 +112,24 @@ while True:
 
 print("Thanks and goodbye!")
 '''
+# https://programming-26.mooc.fi/part-3/4-defining-functions
+# Programming exercise: The first character
+'''
+def value0(text):
+    print(text[0])
+
+value0('python')
+value0('yellow')
+value0('tomorrow')
+value0('heliotrope')
+value0('open')
+value0('night')
+'''
+# https://programming-26.mooc.fi/part-3/4-defining-functions
+# Programming exercise: Mean
+'''
+def value0(x, y, z):
+    print((x * y * z) / 3)
+
+value0(5, 3, 1)
+'''
