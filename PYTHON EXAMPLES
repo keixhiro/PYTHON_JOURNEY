@@ -159,6 +159,43 @@ def value0(x):
                 print(" ")
 value0(5)
 '''
+# https://programming-26.mooc.fi/part-3/4-defining-functions
 #
-#
+'''
+def value0(x):
+    value2 = -1
+    while value2 != x - 1:
+        value2 += 1
+        value1 = -1
+        while value1 != x:
+            value1 += 1
+            if value1 == x:
+                print("")
+            else:
+                print((value2 + value1 + 1) % 2, end = "")
 
+value0(3)
+print()
+value0(6)
+'''
+#
+#
+'''
+def value0(x, y):
+    value3 = len(x)
+    value2 = -1
+    while value2 != y - 1:
+        value2 += 1
+        value1 = -1
+        value4 = (value2 * y) % value3
+        while value1 != y:
+            value1 += 1
+            if value1 == y:
+                print("")
+            else:
+                print(x[(value4 + value1) % value3], end = "")
+
+value0("ab", 3)
+print()
+value0("aybabtu", 5)
+'''
