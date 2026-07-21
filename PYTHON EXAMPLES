@@ -14,6 +14,7 @@ elif value0 < value1:
 else:
     print(f"{value0} comes after {value1}.")
 '''
+
 # https://programming-26.mooc.fi/part-2/3-combining-conditions
 # Programming exercise: Alphabetically in the middle
 '''
@@ -38,6 +39,7 @@ elif value1 > value0:
         else:
             print(f"{value0} is the middle letter.")
 '''
+
 # https://programming-26.mooc.fi/part-3/2-working-with-strings
 # Programming exercise: Find all the substrings
 '''
@@ -53,6 +55,7 @@ while True:
     else:
         break
 '''
+
 # https://programming-26.mooc.fi/part-3/2-working-with-strings
 # Programming exercise: The second occurrence
 '''
@@ -67,6 +70,7 @@ if value2 != -1:
         value4 = value0.find(value1, value3 + len(value1))
         print(value4)
 '''
+
 # https://programming-26.mooc.fi/part-3/3-more-loops
 # Programming exercise: First letters of words
 '''
@@ -91,6 +95,7 @@ while value1 != "":
     else:
         value1 = ""
 '''
+
 # https://programming-26.mooc.fi/part-3/3-more-loops
 # Programming exercise: Factorial
 '''
@@ -112,6 +117,7 @@ while True:
 
 print("Thanks and goodbye!")
 '''
+
 # https://programming-26.mooc.fi/part-3/4-defining-functions
 # Programming exercise: The first character
 '''
@@ -125,6 +131,7 @@ value0('heliotrope')
 value0('open')
 value0('night')
 '''
+
 # https://programming-26.mooc.fi/part-3/4-defining-functions
 # Programming exercise: Mean
 '''
@@ -133,6 +140,7 @@ def value0(x, y, z):
 
 value0(5, 3, 1)
 '''
+
 # https://programming-26.mooc.fi/part-3/4-defining-functions
 # Programming exercise: Print many times
 '''
@@ -144,14 +152,15 @@ def value0(x, y):
 
 value0("Hi", 5)
 '''
+
 # https://programming-26.mooc.fi/part-3/4-defining-functions
 # Programming exercise: A square of hashes
 '''
 def value0(x):
-    value2 = -1
-    while value2 != x:
+    value2 = 0
+    while value2!= x:
         value2 += 1
-        value1 = -1
+        value1 = 0
         while value1 != x:
             print("#", end = "")
             value1 += 1
@@ -159,6 +168,7 @@ def value0(x):
                 print(" ")
 value0(5)
 '''
+
 # https://programming-26.mooc.fi/part-3/4-defining-functions
 #
 '''
@@ -178,7 +188,8 @@ value0(3)
 print()
 value0(6)
 '''
-#
+
+# https://programming-26.mooc.fi/part-3/4-defining-functions
 #
 '''
 def value0(x, y):
@@ -199,3 +210,28 @@ value0("ab", 3)
 print()
 value0("aybabtu", 5)
 '''
+
+# 
+#
+def greet(name):
+    print("Hello there,", name)
+
+def greet_many_times(name, times):
+    while times > 0:
+        greet(name)
+        times -= 1
+
+greet_many_times("Emily", 3)
+
+def value0(x):
+    value2 = 0
+    while value2 != x:
+        value2 += 1
+        value1 = 0
+        while value1 != 10:
+            print("#", end = "")
+            value1 += 1
+            if value1 == 10:
+                print(" ")
+value0(5)
+
