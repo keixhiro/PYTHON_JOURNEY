@@ -213,25 +213,57 @@ value0("aybabtu", 5)
 
 # 
 #
-def greet(name):
-    print("Hello there,", name)
+'''
+def print_row():
+    row0 = 0
+    while row0 != 10:
+        print("#", end = "")
+        row0 += 1
+        if row0 == 10:
+            print(" ")
 
-def greet_many_times(name, times):
-    while times > 0:
-        greet(name)
-        times -= 1
+def table(x):
+    table0 = 0
+    while table0 != x:
+        table0 += 1
+        print_row()
+        
+table(5)
+'''
+#
+#
+'''
+def table(x):
+    table0 = 0
+    while table0 != x:
+        table0 += 1
+        print_row(x)
 
-greet_many_times("Emily", 3)
+def print_row(x):
+    row0 = 0
+    while row0 != x:
+        print("#", end = "")
+        row0 += 1
+        if row0 == x:
+            print(" ")
 
-def value0(x):
-    value2 = 0
-    while value2 != x:
-        value2 += 1
-        value1 = 0
-        while value1 != 10:
-            print("#", end = "")
-            value1 += 1
-            if value1 == 10:
-                print(" ")
-value0(5)
+table(3)
+'''
+#
+#
 
+def table(x, y):
+    table0 = 0
+    while table0 != y:
+        table0 += 1
+        print_row(x, y)
+
+def print_row(x, y):
+    row0 = 0
+    while row0 != y:
+        print(x, end = "")
+        row0 += 1
+        if row0 == y:
+            print(" ")
+
+table("O", 3)
