@@ -1,13 +1,13 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-#include <studio.h>
-
-int mainJ(void){
-    printf("Hello World");
-    return(0);
-}]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "python": "C:/Users/maria/AppData/Local/Programs/Python/Python312/python.exe"
+    }
+  ]
 }

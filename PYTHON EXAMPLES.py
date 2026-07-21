@@ -211,13 +211,13 @@ print()
 value0("aybabtu", 5)
 '''
 
-# 
-#
+# https://programming-26.mooc.fi/part-4/2-more-functions
+# Programming exercise: A box of hashes
 '''
 def print_row():
     row0 = 0
     while row0 != 10:
-        print("#", end = "")
+        print("A", end = "")
         row0 += 1
         if row0 == 10:
             print(" ")
@@ -230,33 +230,45 @@ def table(x):
         
 table(5)
 '''
-#
-#
+# https://programming-26.mooc.fi/part-4/2-more-functions
+#Programming exercise: A square of hashes
 '''
+def print_row(x):
+    row0 = 0
+    while row0 != x:
+        print("O", end = "")
+        row0 += 1
+        if row0 == x:
+            print(" ")
+
 def table(x):
     table0 = 0
     while table0 != x:
         table0 += 1
         print_row(x)
-
-def print_row(x):
-    row0 = 0
-    while row0 != x:
-        print("#", end = "")
-        row0 += 1
-        if row0 == x:
-            print(" ")
-
-table(3)
+table(5)
 '''
-#
-#
+# https://programming-26.mooc.fi/part-4/2-more-functions
+# Programming exercise A square
+'''
+def print_row(x, y):
+    row0 = 0
+    while row0 != y:
+        print(x, end = "")
+        row0 += 1
+        if row0 == y:
+            print(" ")
 
 def table(x, y):
     table0 = 0
     while table0 != y:
         table0 += 1
         print_row(x, y)
+
+table("O", 3)
+'''
+# https://programming-26.mooc.fi/part-4/2-more-functions
+#
 
 def print_row(x, y):
     row0 = 0
@@ -266,5 +278,8 @@ def print_row(x, y):
         if row0 == y:
             print(" ")
 
-table("O", 3)
-print("working")
+def table(x, y):
+    table0 = 0
+    while table0 != y:
+        table0 += 1
+        print_row(x, y)

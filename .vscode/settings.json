@@ -1,7 +1,7 @@
 {
-    "files.associations": {
-        "c": "c"
-    },
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": []
+  "python.defaultInterpreterPath": "C:/Users/maria/AppData/Local/Programs/Python/Python312/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}"
+  ]
 }
