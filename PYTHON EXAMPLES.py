@@ -269,7 +269,11 @@ table("O", 3)
 '''
 # https://programming-26.mooc.fi/part-4/2-more-functions
 #
-
+row0 = 
+row00 =
+while row0 != row00:
+    
+'''
 def print_row(x, y):
     row0 = 0
     while row0 != y:
@@ -283,3 +287,6 @@ def table(x, y):
     while table0 != y:
         table0 += 1
         print_row(x, y)
+
+table("O", 3)
+'''
