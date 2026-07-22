@@ -228,7 +228,7 @@ def table(x):
         table0 += 1
         print_row()
         
-table(5)
+table(3)
 '''
 # https://programming-26.mooc.fi/part-4/2-more-functions
 #Programming exercise: A square of hashes
@@ -269,24 +269,39 @@ table("O", 3)
 '''
 # https://programming-26.mooc.fi/part-4/2-more-functions
 #
-row0 = 
-row00 =
-while row0 != row00:
-    
 '''
-def print_row(x, y):
-    row0 = 0
-    while row0 != y:
-        print(x, end = "")
-        row0 += 1
-        if row0 == y:
-            print(" ")
+def row0 (a, b):
+    print(a * b)
 
-def table(x, y):
-    table0 = 0
-    while table0 != y:
-        table0 += 1
-        print_row(x, y)
-
-table("O", 3)
+def table0(a, b):
+    table00 = 1
+    while table00 <= b:
+        row0(a, table00)
+        row00 += 1
+row0("O", 5)
 '''
+def row0 (a, b):
+    print(a * b)
+
+def table0(a, b):
+    table00 = 1
+    while table00 <= b:
+        row0(a, table00)
+        table00 += 1
+
+def row1(c, d):
+    row11 = 0
+    while row11 != d:
+        print(c, end = "")
+        row11 += 1
+        if row11 == d:
+            print("")
+
+def table1(c, d):
+    table11 = 0
+    while table11 != d:
+        table11 += 1
+        row1(c, d)
+
+table0("0", 5)
+table1("1", 5 )
