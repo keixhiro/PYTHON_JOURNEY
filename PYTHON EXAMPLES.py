@@ -49,8 +49,7 @@ value1 = input("Please type in a character: ")
 while True:
     if value1 in value0:
         value2 = value0.find(value1)
-        value3 = value0[value2:value2 + 2]
-        print(value3)
+        print(value0[value2:value2 + 3])
         value0 = value0[value2 + 1:]
     else:
         break
@@ -58,7 +57,7 @@ while True:
 
 # https://programming-26.mooc.fi/part-3/2-working-with-strings
 # Programming exercise: The second occurrence
-'''
+
 value0 = input("Please type in a word: ")
 value1 = input("Please input a character: ")
 value2 = value0.find(value1)
@@ -69,7 +68,7 @@ if value2 != -1:
     if value3 != -1:
         value4 = value0.find(value1, value3 + len(value1))
         print(value4)
-'''
+
 
 # https://programming-26.mooc.fi/part-3/3-more-loops
 # Programming exercise: First letters of words
@@ -230,6 +229,7 @@ def table(x):
         
 table(3)
 '''
+
 # https://programming-26.mooc.fi/part-4/2-more-functions
 #Programming exercise: A square of hashes
 '''
@@ -248,6 +248,7 @@ def table(x):
         print_row(x)
 table(5)
 '''
+
 # https://programming-26.mooc.fi/part-4/2-more-functions
 # Programming exercise A square
 '''
@@ -267,6 +268,7 @@ def table(x, y):
 
 table("O", 3)
 '''
+
 # https://programming-26.mooc.fi/part-4/2-more-functions
 #
 '''
@@ -279,6 +281,10 @@ def table0(a, b):
         row0(a, table00)
         row00 += 1
 row0("O", 5)
+'''
+
+#
+#
 '''
 def row0 (a, b):
     print(a * b)
@@ -305,3 +311,4 @@ def table1(c, d):
 
 table0("0", 5)
 table1("1", 5 )
+'''
